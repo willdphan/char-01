@@ -1,0 +1,10 @@
+<?xml version='1.0'?>
+<ignition version='1.0'>
+  <executable name='char_01'>
+    <command>ign gazebo /media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/char_01.sdf</command>
+  </executable>
+
+  <executable name='lidar_node'>
+    <command>/media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/build/lidar_node</command>
+  </executable>
+

@@ -1,0 +1,3 @@
+/media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/build/CMakeFiles/lidar_node.dir
+/media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/build/CMakeFiles/edit_cache.dir
+/media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/build/CMakeFiles/rebuild_cache.dir

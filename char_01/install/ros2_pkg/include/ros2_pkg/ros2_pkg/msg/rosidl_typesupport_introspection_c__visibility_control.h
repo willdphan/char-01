@@ -1,0 +1,1 @@
+/media/psf/Developer/Robotics/char-01/char_01/build/ros2_pkg/rosidl_typesupport_introspection_c/ros2_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h

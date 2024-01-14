@@ -1,0 +1,855 @@
+[0.000000] (-) TimerEvent: {}
+[0.000405] (ros2_pkg) JobQueued: {'identifier': 'ros2_pkg', 'dependencies': OrderedDict()}
+[0.000631] (ros2_pkg) JobStarted: {'identifier': 'ros2_pkg'}
+[0.050165] (ros2_pkg) JobProgress: {'identifier': 'ros2_pkg', 'progress': 'cmake'}
+[0.053000] (ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '/media/psf/Developer/Robotics/char-01/char_01/ros2_pkg', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/media/psf/Developer/Robotics/char-01/char_01/install/ros2_pkg'], 'cwd': '/media/psf/Developer/Robotics/char-01/char_01/build/ros2_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'parallels'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/media/psf/Developer/robotics/ros_env/install/ros2_pkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/parallels'), ('OLDPWD', '/home/parallels'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2628'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/media/psf/Developer/robotics/ros_env/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'parallels'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'parallels'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu-linux-22-04-02-desktop:@/tmp/.ICE-unix/2608,unix/ubuntu-linux-22-04-02-desktop:/tmp/.ICE-unix/2608'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0273ef9c_d661_42b7_8af6_cd69da3877c6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.983'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/media/psf/Developer/robotics/ros_env/install/ros2_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/psf/Developer/Robotics/char-01/char_01/build/ros2_pkg'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/media/psf/Developer/robotics/ros_env/install/ros2_pkg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/media/psf/Developer/robotics/ros_env/install/ros2_pkg:/opt/ros/humble')]), 'shell': False}
+[0.090745] (ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098881] (-) TimerEvent: {}
+[0.199462] (-) TimerEvent: {}
+[0.230426] (ros2_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.245529] (ros2_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.270528] (ros2_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.272193] (ros2_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.276326] (ros2_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.285270] (ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.296667] (ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299545] (-) TimerEvent: {}
+[0.343077] (ros2_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.344406] (ros2_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399653] (-) TimerEvent: {}
+[0.488476] (ros2_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.499756] (-) TimerEvent: {}
+[0.600206] (-) TimerEvent: {}
+[0.633940] (ros2_pkg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.640166] (ros2_pkg) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.700314] (-) TimerEvent: {}
+[0.760108] (ros2_pkg) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.771907] (ros2_pkg) StdoutLine: {'line': b'-- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[0.800411] (-) TimerEvent: {}
+[0.821753] (ros2_pkg) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.7 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[0.900635] (-) TimerEvent: {}
+[1.001012] (-) TimerEvent: {}
+[1.101332] (-) TimerEvent: {}
+[1.155229] (ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.9 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[1.156274] (ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.9 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[1.157103] (ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.9 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[1.158134] (ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.201475] (-) TimerEvent: {}
+[1.301846] (-) TimerEvent: {}
+[1.402264] (-) TimerEvent: {}
+[1.502854] (-) TimerEvent: {}
+[1.603173] (-) TimerEvent: {}
+[1.703483] (-) TimerEvent: {}
+[1.792714] (ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.803566] (-) TimerEvent: {}
+[1.903987] (-) TimerEvent: {}
+[2.004488] (-) TimerEvent: {}
+[2.023494] (ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.042991] (ros2_pkg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.061114] (ros2_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.061626] (ros2_pkg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.061982] (ros2_pkg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[2.104593] (-) TimerEvent: {}
+[2.176677] (ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.9 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[2.177235] (ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.9 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[2.195267] (ros2_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.204713] (-) TimerEvent: {}
+[2.265129] (ros2_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.266363] (ros2_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.266684] (ros2_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.304832] (-) TimerEvent: {}
+[2.306846] (ros2_pkg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.307250] (ros2_pkg) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.352544] (ros2_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.359366] (ros2_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.364846] (ros2_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.370290] (ros2_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.370784] (ros2_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.385480] (ros2_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.391283] (ros2_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.404939] (-) TimerEvent: {}
+[2.410575] (ros2_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.505090] (-) TimerEvent: {}
+[2.605380] (-) TimerEvent: {}
+[2.705677] (-) TimerEvent: {}
+[2.796568] (ros2_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[2.805768] (-) TimerEvent: {}
+[2.825506] (ros2_pkg) StdoutLine: {'line': b'-- Build files have been written to: /media/psf/Developer/Robotics/char-01/char_01/build/ros2_pkg\n'}
+[2.834630] (ros2_pkg) CommandEnded: {'returncode': 0}
+[2.835775] (ros2_pkg) JobProgress: {'identifier': 'ros2_pkg', 'progress': 'build'}
+[2.837107] (ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/media/psf/Developer/Robotics/char-01/char_01/build/ros2_pkg', '--', '-j2', '-l2'], 'cwd': '/media/psf/Developer/Robotics/char-01/char_01/build/ros2_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'parallels'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/media/psf/Developer/robotics/ros_env/install/ros2_pkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/parallels'), ('OLDPWD', '/home/parallels'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2628'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/media/psf/Developer/robotics/ros_env/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'parallels'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'parallels'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu-linux-22-04-02-desktop:@/tmp/.ICE-unix/2608,unix/ubuntu-linux-22-04-02-desktop:/tmp/.ICE-unix/2608'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0273ef9c_d661_42b7_8af6_cd69da3877c6'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.983'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/media/psf/Developer/robotics/ros_env/install/ros2_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/psf/Developer/Robotics/char-01/char_01/build/ros2_pkg'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/media/psf/Developer/robotics/ros_env/install/ros2_pkg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/media/psf/Developer/robotics/ros_env/install/ros2_pkg:/opt/ros/humble')]), 'shell': False}
+[2.906538] (-) TimerEvent: {}
+[2.939213] (ros2_pkg) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.961044] (ros2_pkg) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.006623] (-) TimerEvent: {}
+[3.107434] (-) TimerEvent: {}
+[3.207755] (-) TimerEvent: {}
+[3.308123] (-) TimerEvent: {}
+[3.408549] (-) TimerEvent: {}
+[3.509068] (-) TimerEvent: {}
+[3.609812] (-) TimerEvent: {}
+[3.711758] (-) TimerEvent: {}
+[3.755684] (ros2_pkg) StdoutLine: {'line': b'[  2%] Built target ros2_pkg__cpp\n'}
+[3.792336] (ros2_pkg) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/ros2_pkg/srv/detail/odd_even_check__functions.c.o\x1b[0m\n'}
+[3.811975] (-) TimerEvent: {}
+[3.874524] (ros2_pkg) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_symlink_ros2_pkg\n'}
+[3.898157] (ros2_pkg) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/ros2_pkg/srv/detail/turn_camera__functions.c.o\x1b[0m\n'}
+[3.912078] (-) TimerEvent: {}
+[3.940016] (ros2_pkg) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/ros2_pkg/action/detail/navigate__functions.c.o\x1b[0m\n'}
+[4.012173] (-) TimerEvent: {}
+[4.055140] (ros2_pkg) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o\x1b[0m\n'}
+[4.112576] (-) TimerEvent: {}
+[4.214090] (-) TimerEvent: {}
+[4.233076] (ros2_pkg) StdoutLine: {'line': b'[ 10%] \x1b[32m\x1b[1mLinking C shared library libros2_pkg__rosidl_generator_c.so\x1b[0m\n'}
+[4.314334] (-) TimerEvent: {}
+[4.408157] (ros2_pkg) StdoutLine: {'line': b'[ 10%] Built target ros2_pkg__rosidl_generator_c\n'}
+[4.414466] (-) TimerEvent: {}
+[4.469730] (ros2_pkg) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[4.514592] (-) TimerEvent: {}
+[4.617945] (-) TimerEvent: {}
+[4.720286] (-) TimerEvent: {}
+[4.822284] (-) TimerEvent: {}
+[4.925322] (-) TimerEvent: {}
+[5.029168] (-) TimerEvent: {}
+[5.130695] (-) TimerEvent: {}
+[5.231200] (-) TimerEvent: {}
+[5.331824] (-) TimerEvent: {}
+[5.433545] (-) TimerEvent: {}
+[5.537497] (-) TimerEvent: {}
+[5.639200] (-) TimerEvent: {}
+[5.739681] (-) TimerEvent: {}
+[5.840652] (-) TimerEvent: {}
+[5.941956] (-) TimerEvent: {}
+[6.043951] (-) TimerEvent: {}
+[6.147517] (-) TimerEvent: {}
+[6.248685] (-) TimerEvent: {}
+[6.349550] (-) TimerEvent: {}
+[6.450203] (-) TimerEvent: {}
+[6.551026] (-) TimerEvent: {}
+[6.651616] (-) TimerEvent: {}
+[6.752462] (-) TimerEvent: {}
+[6.855202] (-) TimerEvent: {}
+[6.957534] (-) TimerEvent: {}
+[7.066517] (-) TimerEvent: {}
+[7.173054] (-) TimerEvent: {}
+[7.279952] (-) TimerEvent: {}
+[7.384130] (-) TimerEvent: {}
+[7.484907] (-) TimerEvent: {}
+[7.585613] (-) TimerEvent: {}
+[7.715064] (-) TimerEvent: {}
+[7.818847] (-) TimerEvent: {}
+[7.921330] (-) TimerEvent: {}
+[8.024010] (-) TimerEvent: {}
+[8.124964] (-) TimerEvent: {}
+[8.226045] (-) TimerEvent: {}
+[8.326926] (-) TimerEvent: {}
+[8.427582] (-) TimerEvent: {}
+[8.528047] (-) TimerEvent: {}
+[8.636794] (-) TimerEvent: {}
+[8.738680] (-) TimerEvent: {}
+[8.841453] (-) TimerEvent: {}
+[8.942125] (-) TimerEvent: {}
+[9.042453] (-) TimerEvent: {}
+[9.143665] (-) TimerEvent: {}
+[9.244908] (-) TimerEvent: {}
+[9.345456] (-) TimerEvent: {}
+[9.445847] (-) TimerEvent: {}
+[9.546838] (-) TimerEvent: {}
+[9.647244] (-) TimerEvent: {}
+[9.748209] (-) TimerEvent: {}
+[9.849454] (-) TimerEvent: {}
+[9.959855] (-) TimerEvent: {}
+[10.060271] (-) TimerEvent: {}
+[10.161308] (-) TimerEvent: {}
+[10.261819] (-) TimerEvent: {}
+[10.362277] (-) TimerEvent: {}
+[10.466239] (-) TimerEvent: {}
+[10.567782] (-) TimerEvent: {}
+[10.669217] (-) TimerEvent: {}
+[10.774031] (-) TimerEvent: {}
+[10.877102] (-) TimerEvent: {}
+[10.987170] (-) TimerEvent: {}
+[11.088875] (-) TimerEvent: {}
+[11.190546] (-) TimerEvent: {}
+[11.292232] (-) TimerEvent: {}
+[11.392670] (-) TimerEvent: {}
+[11.495030] (-) TimerEvent: {}
+[11.598425] (-) TimerEvent: {}
+[11.698959] (-) TimerEvent: {}
+[11.801709] (-) TimerEvent: {}
+[11.902945] (-) TimerEvent: {}
+[12.003530] (-) TimerEvent: {}
+[12.104083] (-) TimerEvent: {}
+[12.205249] (-) TimerEvent: {}
+[12.305601] (-) TimerEvent: {}
+[12.450364] (-) TimerEvent: {}
+[12.577873] (-) TimerEvent: {}
+[12.681033] (-) TimerEvent: {}
+[12.792392] (-) TimerEvent: {}
+[12.906912] (-) TimerEvent: {}
+[13.007782] (-) TimerEvent: {}
+[13.111317] (-) TimerEvent: {}
+[13.215848] (-) TimerEvent: {}
+[13.333701] (-) TimerEvent: {}
+[13.437415] (-) TimerEvent: {}
+[13.543122] (-) TimerEvent: {}
+[13.652539] (-) TimerEvent: {}
+[13.753894] (-) TimerEvent: {}
+[13.854363] (-) TimerEvent: {}
+[13.955520] (-) TimerEvent: {}
+[14.056292] (-) TimerEvent: {}
+[14.163674] (-) TimerEvent: {}
+[14.264257] (-) TimerEvent: {}
+[14.365471] (-) TimerEvent: {}
+[14.470153] (-) TimerEvent: {}
+[14.570958] (-) TimerEvent: {}
+[14.672628] (-) TimerEvent: {}
+[14.773417] (-) TimerEvent: {}
+[14.876956] (-) TimerEvent: {}
+[14.978425] (-) TimerEvent: {}
+[15.103728] (-) TimerEvent: {}
+[15.275042] (-) TimerEvent: {}
+[15.439790] (-) TimerEvent: {}
+[15.566874] (-) TimerEvent: {}
+[15.691903] (-) TimerEvent: {}
+[15.925569] (-) TimerEvent: {}
+[16.051190] (-) TimerEvent: {}
+[16.185230] (-) TimerEvent: {}
+[16.360269] (-) TimerEvent: {}
+[16.515955] (-) TimerEvent: {}
+[16.708626] (-) TimerEvent: {}
+[16.889646] (-) TimerEvent: {}
+[17.014914] (-) TimerEvent: {}
+[17.158427] (-) TimerEvent: {}
+[17.315481] (-) TimerEvent: {}
+[17.993867] (-) TimerEvent: {}
+[18.208949] (-) TimerEvent: {}
+[18.372010] (-) TimerEvent: {}
+[18.505092] (-) TimerEvent: {}
+[18.634193] (-) TimerEvent: {}
+[19.290461] (-) TimerEvent: {}
+[19.464794] (-) TimerEvent: {}
+[19.565469] (-) TimerEvent: {}
+[19.665982] (-) TimerEvent: {}
+[19.766453] (-) TimerEvent: {}
+[19.867001] (-) TimerEvent: {}
+[19.967751] (-) TimerEvent: {}
+[20.078579] (-) TimerEvent: {}
+[20.179672] (-) TimerEvent: {}
+[20.281549] (-) TimerEvent: {}
+[20.382101] (-) TimerEvent: {}
+[20.483521] (-) TimerEvent: {}
+[20.584227] (-) TimerEvent: {}
+[20.684791] (-) TimerEvent: {}
+[20.785469] (-) TimerEvent: {}
+[20.886235] (-) TimerEvent: {}
+[20.986984] (-) TimerEvent: {}
+[21.087583] (-) TimerEvent: {}
+[21.189608] (-) TimerEvent: {}
+[21.290617] (-) TimerEvent: {}
+[21.391863] (-) TimerEvent: {}
+[21.492560] (-) TimerEvent: {}
+[21.593477] (-) TimerEvent: {}
+[21.694752] (-) TimerEvent: {}
+[21.796437] (-) TimerEvent: {}
+[21.897237] (-) TimerEvent: {}
+[21.998830] (-) TimerEvent: {}
+[22.115284] (-) TimerEvent: {}
+[22.217901] (-) TimerEvent: {}
+[22.318915] (-) TimerEvent: {}
+[22.419382] (-) TimerEvent: {}
+[22.520485] (-) TimerEvent: {}
+[22.621025] (-) TimerEvent: {}
+[22.721523] (-) TimerEvent: {}
+[22.822178] (-) TimerEvent: {}
+[22.922899] (-) TimerEvent: {}
+[23.023763] (-) TimerEvent: {}
+[23.124430] (-) TimerEvent: {}
+[23.383722] (-) TimerEvent: {}
+[23.484066] (-) TimerEvent: {}
+[23.586411] (-) TimerEvent: {}
+[23.740005] (-) TimerEvent: {}
+[23.841632] (-) TimerEvent: {}
+[23.942176] (-) TimerEvent: {}
+[24.043157] (-) TimerEvent: {}
+[24.144036] (-) TimerEvent: {}
+[24.244393] (-) TimerEvent: {}
+[24.347552] (-) TimerEvent: {}
+[24.447949] (-) TimerEvent: {}
+[24.548685] (-) TimerEvent: {}
+[24.649410] (-) TimerEvent: {}
+[24.756135] (-) TimerEvent: {}
+[24.885767] (-) TimerEvent: {}
+[24.986334] (-) TimerEvent: {}
+[25.087330] (-) TimerEvent: {}
+[25.187808] (-) TimerEvent: {}
+[25.288213] (-) TimerEvent: {}
+[25.392711] (-) TimerEvent: {}
+[25.494073] (-) TimerEvent: {}
+[25.600135] (-) TimerEvent: {}
+[25.732341] (ros2_pkg) StdoutLine: {'line': b'[ 13%] \x1b[32m\x1b[1mLinking CXX executable publisher\x1b[0m\n'}
+[25.786961] (-) TimerEvent: {}
+[25.889202] (-) TimerEvent: {}
+[25.990803] (-) TimerEvent: {}
+[26.092914] (-) TimerEvent: {}
+[26.195411] (-) TimerEvent: {}
+[26.297416] (-) TimerEvent: {}
+[26.397901] (-) TimerEvent: {}
+[26.498369] (-) TimerEvent: {}
+[26.535026] (ros2_pkg) StdoutLine: {'line': b'[ 13%] Built target publisher\n'}
+[26.598473] (-) TimerEvent: {}
+[26.699074] (-) TimerEvent: {}
+[26.799733] (-) TimerEvent: {}
+[26.900275] (-) TimerEvent: {}
+[27.000885] (-) TimerEvent: {}
+[27.101321] (-) TimerEvent: {}
+[27.201672] (-) TimerEvent: {}
+[27.303176] (-) TimerEvent: {}
+[27.403948] (-) TimerEvent: {}
+[27.504428] (-) TimerEvent: {}
+[27.604778] (-) TimerEvent: {}
+[27.705352] (-) TimerEvent: {}
+[27.806464] (-) TimerEvent: {}
+[27.906940] (-) TimerEvent: {}
+[28.007460] (-) TimerEvent: {}
+[28.107856] (-) TimerEvent: {}
+[28.209381] (-) TimerEvent: {}
+[28.310141] (-) TimerEvent: {}
+[28.410919] (-) TimerEvent: {}
+[28.511258] (-) TimerEvent: {}
+[28.611587] (-) TimerEvent: {}
+[28.712660] (-) TimerEvent: {}
+[28.813136] (-) TimerEvent: {}
+[28.913636] (-) TimerEvent: {}
+[29.013975] (-) TimerEvent: {}
+[29.114347] (-) TimerEvent: {}
+[29.214772] (-) TimerEvent: {}
+[29.315185] (-) TimerEvent: {}
+[29.415886] (-) TimerEvent: {}
+[29.516246] (-) TimerEvent: {}
+[29.616763] (-) TimerEvent: {}
+[29.717301] (-) TimerEvent: {}
+[29.818804] (-) TimerEvent: {}
+[29.919188] (-) TimerEvent: {}
+[30.019839] (-) TimerEvent: {}
+[30.120343] (-) TimerEvent: {}
+[30.220757] (-) TimerEvent: {}
+[30.321062] (-) TimerEvent: {}
+[30.383919] (ros2_pkg) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking CXX executable subscriber\x1b[0m\n'}
+[30.421153] (-) TimerEvent: {}
+[30.521497] (-) TimerEvent: {}
+[30.621889] (-) TimerEvent: {}
+[30.722213] (-) TimerEvent: {}
+[30.822503] (-) TimerEvent: {}
+[30.852384] (ros2_pkg) StdoutLine: {'line': b'[ 14%] Built target subscriber\n'}
+[30.892615] (ros2_pkg) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/rpm_pub.dir/src/rpm_pub.cpp.o\x1b[0m\n'}
+[30.922645] (-) TimerEvent: {}
+[31.023016] (-) TimerEvent: {}
+[31.123350] (-) TimerEvent: {}
+[31.223718] (-) TimerEvent: {}
+[31.324203] (-) TimerEvent: {}
+[31.424598] (-) TimerEvent: {}
+[31.525083] (-) TimerEvent: {}
+[31.625474] (-) TimerEvent: {}
+[31.725843] (-) TimerEvent: {}
+[31.826208] (-) TimerEvent: {}
+[31.926655] (-) TimerEvent: {}
+[32.027113] (-) TimerEvent: {}
+[32.127495] (-) TimerEvent: {}
+[32.227918] (-) TimerEvent: {}
+[32.328353] (-) TimerEvent: {}
+[32.428699] (-) TimerEvent: {}
+[32.529129] (-) TimerEvent: {}
+[32.629490] (-) TimerEvent: {}
+[32.731252] (-) TimerEvent: {}
+[32.831658] (-) TimerEvent: {}
+[32.932014] (-) TimerEvent: {}
+[33.032362] (-) TimerEvent: {}
+[33.132732] (-) TimerEvent: {}
+[33.233043] (-) TimerEvent: {}
+[33.333446] (-) TimerEvent: {}
+[33.412752] (ros2_pkg) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking CXX executable rpm_pub\x1b[0m\n'}
+[33.433552] (-) TimerEvent: {}
+[33.533991] (-) TimerEvent: {}
+[33.624239] (ros2_pkg) StdoutLine: {'line': b'[ 17%] Built target rpm_pub\n'}
+[33.634029] (-) TimerEvent: {}
+[33.658680] (ros2_pkg) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/speed_calc.dir/src/speed_calc.cpp.o\x1b[0m\n'}
+[33.734264] (-) TimerEvent: {}
+[33.834720] (-) TimerEvent: {}
+[33.935110] (-) TimerEvent: {}
+[34.035518] (-) TimerEvent: {}
+[34.135937] (-) TimerEvent: {}
+[34.236273] (-) TimerEvent: {}
+[34.336640] (-) TimerEvent: {}
+[34.437205] (-) TimerEvent: {}
+[34.537556] (-) TimerEvent: {}
+[34.638004] (-) TimerEvent: {}
+[34.738603] (-) TimerEvent: {}
+[34.842223] (-) TimerEvent: {}
+[34.942751] (-) TimerEvent: {}
+[35.043072] (-) TimerEvent: {}
+[35.143534] (-) TimerEvent: {}
+[35.245175] (-) TimerEvent: {}
+[35.348774] (-) TimerEvent: {}
+[35.449153] (-) TimerEvent: {}
+[35.549583] (-) TimerEvent: {}
+[35.650017] (-) TimerEvent: {}
+[35.750548] (-) TimerEvent: {}
+[35.850963] (-) TimerEvent: {}
+[35.951459] (-) TimerEvent: {}
+[36.051854] (-) TimerEvent: {}
+[36.152272] (-) TimerEvent: {}
+[36.252647] (-) TimerEvent: {}
+[36.353189] (-) TimerEvent: {}
+[36.453503] (-) TimerEvent: {}
+[36.553872] (-) TimerEvent: {}
+[36.654251] (-) TimerEvent: {}
+[36.754757] (-) TimerEvent: {}
+[36.855054] (-) TimerEvent: {}
+[36.955404] (-) TimerEvent: {}
+[37.055834] (-) TimerEvent: {}
+[37.156185] (-) TimerEvent: {}
+[37.256531] (-) TimerEvent: {}
+[37.356971] (-) TimerEvent: {}
+[37.457336] (-) TimerEvent: {}
+[37.557708] (-) TimerEvent: {}
+[37.658121] (-) TimerEvent: {}
+[37.758535] (-) TimerEvent: {}
+[37.859020] (-) TimerEvent: {}
+[37.959432] (-) TimerEvent: {}
+[38.059889] (-) TimerEvent: {}
+[38.160359] (-) TimerEvent: {}
+[38.260730] (-) TimerEvent: {}
+[38.361193] (-) TimerEvent: {}
+[38.461591] (-) TimerEvent: {}
+[38.561922] (-) TimerEvent: {}
+[38.627537] (ros2_pkg) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking CXX executable speed_calc\x1b[0m\n'}
+[38.662041] (-) TimerEvent: {}
+[38.762383] (-) TimerEvent: {}
+[38.862773] (-) TimerEvent: {}
+[38.963159] (-) TimerEvent: {}
+[39.055534] (ros2_pkg) StdoutLine: {'line': b'[ 20%] Built target speed_calc\n'}
+[39.063250] (-) TimerEvent: {}
+[39.081263] (ros2_pkg) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[39.163352] (-) TimerEvent: {}
+[39.263683] (-) TimerEvent: {}
+[39.363968] (-) TimerEvent: {}
+[39.393822] (ros2_pkg) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_pkg/srv/odd_even_check__type_support.cpp.o\x1b[0m\n'}
+[39.464075] (-) TimerEvent: {}
+[39.564477] (-) TimerEvent: {}
+[39.582730] (ros2_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_pkg/srv/turn_camera__type_support.cpp.o\x1b[0m\n'}
+[39.664658] (-) TimerEvent: {}
+[39.765102] (-) TimerEvent: {}
+[39.805314] (ros2_pkg) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_pkg/action/navigate__type_support.cpp.o\x1b[0m\n'}
+[39.865156] (-) TimerEvent: {}
+[39.965528] (-) TimerEvent: {}
+[40.065883] (-) TimerEvent: {}
+[40.108688] (ros2_pkg) StdoutLine: {'line': b'[ 28%] \x1b[32m\x1b[1mLinking CXX shared library libros2_pkg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[40.158749] (ros2_pkg) StdoutLine: {'line': b'[ 28%] Built target ros2_pkg__rosidl_typesupport_cpp\n'}
+[40.165963] (-) TimerEvent: {}
+[40.181122] (ros2_pkg) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[40.266087] (-) TimerEvent: {}
+[40.366501] (-) TimerEvent: {}
+[40.466850] (-) TimerEvent: {}
+[40.567233] (-) TimerEvent: {}
+[40.612809] (ros2_pkg) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_pkg/srv/detail/odd_even_check__type_support_c.cpp.o\x1b[0m\n'}
+[40.667341] (-) TimerEvent: {}
+[40.767708] (-) TimerEvent: {}
+[40.868289] (-) TimerEvent: {}
+[40.923991] (ros2_pkg) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_pkg/srv/detail/turn_camera__type_support_c.cpp.o\x1b[0m\n'}
+[40.968390] (-) TimerEvent: {}
+[41.068889] (-) TimerEvent: {}
+[41.169310] (-) TimerEvent: {}
+[41.200061] (ros2_pkg) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_pkg/action/detail/navigate__type_support_c.cpp.o\x1b[0m\n'}
+[41.269406] (-) TimerEvent: {}
+[41.369753] (-) TimerEvent: {}
+[41.470164] (-) TimerEvent: {}
+[41.479160] (ros2_pkg) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX shared library libros2_pkg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[41.556652] (ros2_pkg) StdoutLine: {'line': b'[ 35%] Built target ros2_pkg__rosidl_typesupport_fastrtps_c\n'}
+[41.570267] (-) TimerEvent: {}
+[41.575265] (ros2_pkg) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[41.670522] (-) TimerEvent: {}
+[41.770829] (-) TimerEvent: {}
+[41.871147] (-) TimerEvent: {}
+[41.971511] (-) TimerEvent: {}
+[41.993716] (ros2_pkg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_pkg/srv/detail/dds_fastrtps/odd_even_check__type_support.cpp.o\x1b[0m\n'}
+[42.072210] (-) TimerEvent: {}
+[42.172753] (-) TimerEvent: {}
+[42.266396] (ros2_pkg) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_pkg/srv/detail/dds_fastrtps/turn_camera__type_support.cpp.o\x1b[0m\n'}
+[42.272891] (-) TimerEvent: {}
+[42.373272] (-) TimerEvent: {}
+[42.473594] (-) TimerEvent: {}
+[42.547926] (ros2_pkg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_pkg/action/detail/dds_fastrtps/navigate__type_support.cpp.o\x1b[0m\n'}
+[42.573704] (-) TimerEvent: {}
+[42.674026] (-) TimerEvent: {}
+[42.774348] (-) TimerEvent: {}
+[42.875089] (-) TimerEvent: {}
+[42.975615] (-) TimerEvent: {}
+[42.978830] (ros2_pkg) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libros2_pkg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[43.061287] (ros2_pkg) StdoutLine: {'line': b'[ 43%] Built target ros2_pkg__rosidl_typesupport_fastrtps_cpp\n'}
+[43.075732] (-) TimerEvent: {}
+[43.079292] (ros2_pkg) StdoutLine: {'line': b'[ 44%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[43.175828] (-) TimerEvent: {}
+[43.276235] (-) TimerEvent: {}
+[43.376517] (-) TimerEvent: {}
+[43.477676] (-) TimerEvent: {}
+[43.515845] (ros2_pkg) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/ros2_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_pkg/srv/detail/odd_even_check__type_support.c.o\x1b[0m\n'}
+[43.577787] (-) TimerEvent: {}
+[43.584909] (ros2_pkg) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/ros2_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_pkg/srv/detail/turn_camera__type_support.c.o\x1b[0m\n'}
+[43.659616] (ros2_pkg) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/ros2_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_pkg/action/detail/navigate__type_support.c.o\x1b[0m\n'}
+[43.677899] (-) TimerEvent: {}
+[43.730947] (ros2_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking C shared library libros2_pkg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[43.778013] (-) TimerEvent: {}
+[43.785438] (ros2_pkg) StdoutLine: {'line': b'[ 50%] Built target ros2_pkg__rosidl_typesupport_introspection_c\n'}
+[43.806713] (ros2_pkg) StdoutLine: {'line': b'[ 52%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[43.878098] (-) TimerEvent: {}
+[43.978435] (-) TimerEvent: {}
+[44.079110] (-) TimerEvent: {}
+[44.179576] (-) TimerEvent: {}
+[44.183634] (ros2_pkg) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_pkg/srv/odd_even_check__type_support.cpp.o\x1b[0m\n'}
+[44.232453] (ros2_pkg) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_pkg/srv/turn_camera__type_support.cpp.o\x1b[0m\n'}
+[44.279680] (-) TimerEvent: {}
+[44.285027] (ros2_pkg) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_pkg/action/navigate__type_support.cpp.o\x1b[0m\n'}
+[44.351698] (ros2_pkg) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libros2_pkg__rosidl_typesupport_c.so\x1b[0m\n'}
+[44.379867] (-) TimerEvent: {}
+[44.413973] (ros2_pkg) StdoutLine: {'line': b'[ 58%] Built target ros2_pkg__rosidl_typesupport_c\n'}
+[44.432923] (ros2_pkg) StdoutLine: {'line': b'[ 59%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[44.480127] (-) TimerEvent: {}
+[44.580495] (-) TimerEvent: {}
+[44.680869] (-) TimerEvent: {}
+[44.781629] (-) TimerEvent: {}
+[44.884099] (-) TimerEvent: {}
+[44.891348] (ros2_pkg) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_pkg/srv/detail/odd_even_check__type_support.cpp.o\x1b[0m\n'}
+[44.984232] (-) TimerEvent: {}
+[45.084723] (-) TimerEvent: {}
+[45.185163] (-) TimerEvent: {}
+[45.192440] (ros2_pkg) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_pkg/srv/detail/turn_camera__type_support.cpp.o\x1b[0m\n'}
+[45.285287] (-) TimerEvent: {}
+[45.385679] (-) TimerEvent: {}
+[45.486041] (-) TimerEvent: {}
+[45.541649] (ros2_pkg) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_pkg/action/detail/navigate__type_support.cpp.o\x1b[0m\n'}
+[45.586156] (-) TimerEvent: {}
+[45.686511] (-) TimerEvent: {}
+[45.786929] (-) TimerEvent: {}
+[45.887416] (-) TimerEvent: {}
+[45.964735] (ros2_pkg) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libros2_pkg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[45.987518] (-) TimerEvent: {}
+[46.039562] (ros2_pkg) StdoutLine: {'line': b'[ 65%] Built target ros2_pkg__rosidl_typesupport_introspection_cpp\n'}
+[46.088317] (-) TimerEvent: {}
+[46.189671] (-) TimerEvent: {}
+[46.290101] (-) TimerEvent: {}
+[46.390463] (-) TimerEvent: {}
+[46.440578] (ros2_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[46.441023] (ros2_pkg) StdoutLine: {'line': b'creating ros2_pkg.egg-info\n'}
+[46.441442] (ros2_pkg) StdoutLine: {'line': b'writing ros2_pkg.egg-info/PKG-INFO\n'}
+[46.442252] (ros2_pkg) StdoutLine: {'line': b'writing dependency_links to ros2_pkg.egg-info/dependency_links.txt\n'}
+[46.443055] (ros2_pkg) StdoutLine: {'line': b'writing top-level names to ros2_pkg.egg-info/top_level.txt\n'}
+[46.443735] (ros2_pkg) StdoutLine: {'line': b"writing manifest file 'ros2_pkg.egg-info/SOURCES.txt'\n"}
+[46.447230] (ros2_pkg) StdoutLine: {'line': b"reading manifest file 'ros2_pkg.egg-info/SOURCES.txt'\n"}
+[46.448089] (ros2_pkg) StdoutLine: {'line': b"writing manifest file 'ros2_pkg.egg-info/SOURCES.txt'\n"}
+[46.472025] (ros2_pkg) StdoutLine: {'line': b'[ 65%] Built target ament_cmake_python_build_ros2_pkg_egg\n'}
+[46.490572] (-) TimerEvent: {}
+[46.516164] (ros2_pkg) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/service_server.dir/src/service_server.cpp.o\x1b[0m\n'}
+[46.590671] (-) TimerEvent: {}
+[46.690979] (-) TimerEvent: {}
+[46.791294] (-) TimerEvent: {}
+[46.891678] (-) TimerEvent: {}
+[46.992071] (-) TimerEvent: {}
+[47.092471] (-) TimerEvent: {}
+[47.192887] (-) TimerEvent: {}
+[47.293238] (-) TimerEvent: {}
+[47.393705] (-) TimerEvent: {}
+[47.494356] (-) TimerEvent: {}
+[47.594705] (-) TimerEvent: {}
+[47.696794] (-) TimerEvent: {}
+[47.800062] (-) TimerEvent: {}
+[47.900420] (-) TimerEvent: {}
+[48.000706] (-) TimerEvent: {}
+[48.101089] (-) TimerEvent: {}
+[48.201530] (-) TimerEvent: {}
+[48.301888] (-) TimerEvent: {}
+[48.402317] (-) TimerEvent: {}
+[48.502635] (-) TimerEvent: {}
+[48.602949] (-) TimerEvent: {}
+[48.703230] (-) TimerEvent: {}
+[48.803532] (-) TimerEvent: {}
+[48.904786] (-) TimerEvent: {}
+[49.005123] (-) TimerEvent: {}
+[49.105972] (-) TimerEvent: {}
+[49.210697] (-) TimerEvent: {}
+[49.311244] (-) TimerEvent: {}
+[49.414074] (-) TimerEvent: {}
+[49.514433] (-) TimerEvent: {}
+[49.516825] (ros2_pkg) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX executable service_server\x1b[0m\n'}
+[49.614678] (-) TimerEvent: {}
+[49.715059] (-) TimerEvent: {}
+[49.745474] (ros2_pkg) StdoutLine: {'line': b'[ 68%] Built target service_server\n'}
+[49.786996] (ros2_pkg) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/service_client.dir/src/service_client.cpp.o\x1b[0m\n'}
+[49.815209] (-) TimerEvent: {}
+[49.915778] (-) TimerEvent: {}
+[50.021734] (-) TimerEvent: {}
+[50.123996] (-) TimerEvent: {}
+[50.225587] (-) TimerEvent: {}
+[50.326233] (-) TimerEvent: {}
+[50.427677] (-) TimerEvent: {}
+[50.528819] (-) TimerEvent: {}
+[50.629237] (-) TimerEvent: {}
+[50.729697] (-) TimerEvent: {}
+[50.831271] (-) TimerEvent: {}
+[50.933319] (-) TimerEvent: {}
+[51.034885] (-) TimerEvent: {}
+[51.136385] (-) TimerEvent: {}
+[51.237788] (-) TimerEvent: {}
+[51.338541] (-) TimerEvent: {}
+[51.438958] (-) TimerEvent: {}
+[51.539323] (-) TimerEvent: {}
+[51.639858] (-) TimerEvent: {}
+[51.740424] (-) TimerEvent: {}
+[51.841343] (-) TimerEvent: {}
+[51.942549] (-) TimerEvent: {}
+[52.046232] (-) TimerEvent: {}
+[52.149167] (-) TimerEvent: {}
+[52.253339] (-) TimerEvent: {}
+[52.356813] (-) TimerEvent: {}
+[52.458372] (-) TimerEvent: {}
+[52.564362] (-) TimerEvent: {}
+[52.664864] (-) TimerEvent: {}
+[52.766226] (-) TimerEvent: {}
+[52.866679] (-) TimerEvent: {}
+[52.967335] (-) TimerEvent: {}
+[53.068452] (-) TimerEvent: {}
+[53.168827] (-) TimerEvent: {}
+[53.269405] (-) TimerEvent: {}
+[53.369963] (-) TimerEvent: {}
+[53.471812] (-) TimerEvent: {}
+[53.573507] (-) TimerEvent: {}
+[53.674080] (-) TimerEvent: {}
+[53.774969] (-) TimerEvent: {}
+[53.826687] (ros2_pkg) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX executable service_client\x1b[0m\n'}
+[53.875106] (-) TimerEvent: {}
+[53.975427] (-) TimerEvent: {}
+[54.061214] (ros2_pkg) StdoutLine: {'line': b'[ 71%] Built target service_client\n'}
+[54.075530] (-) TimerEvent: {}
+[54.122163] (ros2_pkg) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/turn_camera_service.dir/src/turn_camera_service.cpp.o\x1b[0m\n'}
+[54.175627] (-) TimerEvent: {}
+[54.275930] (-) TimerEvent: {}
+[54.376267] (-) TimerEvent: {}
+[54.476764] (-) TimerEvent: {}
+[54.577160] (-) TimerEvent: {}
+[54.677601] (-) TimerEvent: {}
+[54.777955] (-) TimerEvent: {}
+[54.878286] (-) TimerEvent: {}
+[54.978658] (-) TimerEvent: {}
+[55.079075] (-) TimerEvent: {}
+[55.179413] (-) TimerEvent: {}
+[55.280468] (-) TimerEvent: {}
+[55.380824] (-) TimerEvent: {}
+[55.481229] (-) TimerEvent: {}
+[55.581671] (-) TimerEvent: {}
+[55.682049] (-) TimerEvent: {}
+[55.784196] (-) TimerEvent: {}
+[55.884556] (-) TimerEvent: {}
+[55.985399] (-) TimerEvent: {}
+[56.085807] (-) TimerEvent: {}
+[56.186344] (-) TimerEvent: {}
+[56.286948] (-) TimerEvent: {}
+[56.389190] (-) TimerEvent: {}
+[56.489555] (-) TimerEvent: {}
+[56.590450] (-) TimerEvent: {}
+[56.691081] (-) TimerEvent: {}
+[56.792004] (-) TimerEvent: {}
+[56.893188] (-) TimerEvent: {}
+[56.994024] (-) TimerEvent: {}
+[57.094737] (-) TimerEvent: {}
+[57.195131] (-) TimerEvent: {}
+[57.295589] (-) TimerEvent: {}
+[57.397789] (-) TimerEvent: {}
+[57.498136] (-) TimerEvent: {}
+[57.598576] (-) TimerEvent: {}
+[57.698969] (-) TimerEvent: {}
+[57.799918] (-) TimerEvent: {}
+[57.900327] (-) TimerEvent: {}
+[58.000723] (-) TimerEvent: {}
+[58.101316] (-) TimerEvent: {}
+[58.201699] (-) TimerEvent: {}
+[58.302113] (-) TimerEvent: {}
+[58.322650] (ros2_pkg) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX executable turn_camera_service\x1b[0m\n'}
+[58.402234] (-) TimerEvent: {}
+[58.502575] (-) TimerEvent: {}
+[58.603069] (-) TimerEvent: {}
+[58.703970] (-) TimerEvent: {}
+[58.804353] (-) TimerEvent: {}
+[58.904790] (-) TimerEvent: {}
+[58.985316] (ros2_pkg) StdoutLine: {'line': b'[ 74%] Built target turn_camera_service\n'}
+[59.004896] (-) TimerEvent: {}
+[59.049847] (ros2_pkg) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/turn_camera_client.dir/src/turn_camera_client.cpp.o\x1b[0m\n'}
+[59.104994] (-) TimerEvent: {}
+[59.205626] (-) TimerEvent: {}
+[59.308221] (-) TimerEvent: {}
+[59.408598] (-) TimerEvent: {}
+[59.509216] (-) TimerEvent: {}
+[59.612311] (-) TimerEvent: {}
+[59.713317] (-) TimerEvent: {}
+[59.815701] (-) TimerEvent: {}
+[59.919040] (-) TimerEvent: {}
+[60.020035] (-) TimerEvent: {}
+[60.120487] (-) TimerEvent: {}
+[60.221151] (-) TimerEvent: {}
+[60.323194] (-) TimerEvent: {}
+[60.423856] (-) TimerEvent: {}
+[60.525588] (-) TimerEvent: {}
+[60.626031] (-) TimerEvent: {}
+[60.729742] (-) TimerEvent: {}
+[60.832418] (-) TimerEvent: {}
+[60.932797] (-) TimerEvent: {}
+[61.033204] (-) TimerEvent: {}
+[61.137536] (-) TimerEvent: {}
+[61.237909] (-) TimerEvent: {}
+[61.338280] (-) TimerEvent: {}
+[61.438675] (-) TimerEvent: {}
+[61.539543] (-) TimerEvent: {}
+[61.639885] (-) TimerEvent: {}
+[61.741232] (-) TimerEvent: {}
+[61.841662] (-) TimerEvent: {}
+[61.942151] (-) TimerEvent: {}
+[62.044539] (-) TimerEvent: {}
+[62.145481] (-) TimerEvent: {}
+[62.247102] (-) TimerEvent: {}
+[62.347510] (-) TimerEvent: {}
+[62.448290] (-) TimerEvent: {}
+[62.550091] (-) TimerEvent: {}
+[62.650831] (-) TimerEvent: {}
+[62.752380] (-) TimerEvent: {}
+[62.852843] (-) TimerEvent: {}
+[62.958242] (-) TimerEvent: {}
+[63.058604] (-) TimerEvent: {}
+[63.161336] (-) TimerEvent: {}
+[63.261723] (-) TimerEvent: {}
+[63.362016] (-) TimerEvent: {}
+[63.462730] (-) TimerEvent: {}
+[63.474652] (ros2_pkg) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX executable turn_camera_client\x1b[0m\n'}
+[63.562915] (-) TimerEvent: {}
+[63.663255] (-) TimerEvent: {}
+[63.763857] (-) TimerEvent: {}
+[63.864299] (-) TimerEvent: {}
+[63.964691] (-) TimerEvent: {}
+[64.065120] (-) TimerEvent: {}
+[64.165506] (-) TimerEvent: {}
+[64.266025] (-) TimerEvent: {}
+[64.312231] (ros2_pkg) StdoutLine: {'line': b'[ 77%] Built target turn_camera_client\n'}
+[64.366050] (-) TimerEvent: {}
+[64.378078] (ros2_pkg) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o\x1b[0m\n'}
+[64.466165] (-) TimerEvent: {}
+[64.566579] (-) TimerEvent: {}
+[64.666958] (-) TimerEvent: {}
+[64.767645] (-) TimerEvent: {}
+[64.869868] (-) TimerEvent: {}
+[64.970242] (-) TimerEvent: {}
+[65.070571] (-) TimerEvent: {}
+[65.170910] (-) TimerEvent: {}
+[65.271477] (-) TimerEvent: {}
+[65.371839] (-) TimerEvent: {}
+[65.472250] (-) TimerEvent: {}
+[65.572847] (-) TimerEvent: {}
+[65.673982] (-) TimerEvent: {}
+[65.774328] (-) TimerEvent: {}
+[65.874821] (-) TimerEvent: {}
+[65.975178] (-) TimerEvent: {}
+[66.075509] (-) TimerEvent: {}
+[66.175859] (-) TimerEvent: {}
+[66.277060] (-) TimerEvent: {}
+[66.377796] (-) TimerEvent: {}
+[66.478134] (-) TimerEvent: {}
+[66.578633] (-) TimerEvent: {}
+[66.679079] (-) TimerEvent: {}
+[66.779592] (-) TimerEvent: {}
+[66.880857] (-) TimerEvent: {}
+[66.981209] (-) TimerEvent: {}
+[67.081590] (-) TimerEvent: {}
+[67.185655] (-) TimerEvent: {}
+[67.286131] (-) TimerEvent: {}
+[67.386663] (-) TimerEvent: {}
+[67.487037] (-) TimerEvent: {}
+[67.587433] (-) TimerEvent: {}
+[67.687810] (-) TimerEvent: {}
+[67.788283] (-) TimerEvent: {}
+[67.888709] (-) TimerEvent: {}
+[67.994167] (-) TimerEvent: {}
+[68.097495] (-) TimerEvent: {}
+[68.203346] (-) TimerEvent: {}
+[68.304807] (-) TimerEvent: {}
+[68.405225] (-) TimerEvent: {}
+[68.505736] (-) TimerEvent: {}
+[68.606065] (-) TimerEvent: {}
+[68.707517] (-) TimerEvent: {}
+[68.808006] (-) TimerEvent: {}
+[68.908365] (-) TimerEvent: {}
+[69.008958] (-) TimerEvent: {}
+[69.109331] (-) TimerEvent: {}
+[69.209751] (-) TimerEvent: {}
+[69.310115] (-) TimerEvent: {}
+[69.410619] (-) TimerEvent: {}
+[69.511029] (-) TimerEvent: {}
+[69.614789] (-) TimerEvent: {}
+[69.715267] (-) TimerEvent: {}
+[69.815661] (-) TimerEvent: {}
+[69.917728] (-) TimerEvent: {}
+[70.018019] (-) TimerEvent: {}
+[70.118611] (-) TimerEvent: {}
+[70.218934] (-) TimerEvent: {}
+[70.319324] (-) TimerEvent: {}
+[70.420589] (-) TimerEvent: {}
+[70.521099] (-) TimerEvent: {}
+[70.621401] (-) TimerEvent: {}
+[70.721667] (-) TimerEvent: {}
+[70.822015] (-) TimerEvent: {}
+[70.922589] (-) TimerEvent: {}
+[71.023775] (-) TimerEvent: {}
+[71.124211] (-) TimerEvent: {}
+[71.224786] (-) TimerEvent: {}
+[71.325089] (-) TimerEvent: {}
+[71.425612] (-) TimerEvent: {}
+[71.525898] (-) TimerEvent: {}
+[71.626352] (-) TimerEvent: {}
+[71.726726] (-) TimerEvent: {}
+[71.827064] (-) TimerEvent: {}
+[71.927604] (-) TimerEvent: {}
+[72.028043] (-) TimerEvent: {}
+[72.128439] (-) TimerEvent: {}
+[72.229250] (-) TimerEvent: {}
+[72.329789] (-) TimerEvent: {}
+[72.430080] (-) TimerEvent: {}
+[72.530850] (-) TimerEvent: {}
+[72.631172] (-) TimerEvent: {}
+[72.731513] (-) TimerEvent: {}
+[72.832060] (-) TimerEvent: {}
+[72.932440] (-) TimerEvent: {}
+[73.032829] (-) TimerEvent: {}
+[73.133832] (-) TimerEvent: {}
+[73.237535] (-) TimerEvent: {}
+[73.337897] (-) TimerEvent: {}
+[73.438254] (-) TimerEvent: {}
+[73.538568] (-) TimerEvent: {}
+[73.641097] (-) TimerEvent: {}
+[73.741821] (-) TimerEvent: {}
+[73.842204] (-) TimerEvent: {}
+[73.943541] (-) TimerEvent: {}
+[74.043941] (-) TimerEvent: {}
+[74.144436] (-) TimerEvent: {}
+[74.244919] (-) TimerEvent: {}
+[74.346331] (-) TimerEvent: {}
+[74.438289] (ros2_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/media/psf/Developer/Robotics/char-01/char_01/ros2_pkg/src/action_server.cpp:132:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kopening dependency file CMakeFiles/action_server.dir/src/action_server.cpp.o.d: No such file or directory\n'}
+[74.451641] (-) TimerEvent: {}
+[74.453059] (ros2_pkg) StderrLine: {'line': b'  132 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[74.453542] (ros2_pkg) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[74.453686] (ros2_pkg) StderrLine: {'line': b'compilation terminated.\n'}
+[74.486320] (ros2_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/action_server.cpp.o] Error 1\n'}
+[74.490660] (ros2_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:823: CMakeFiles/action_server.dir/all] Error 2\n'}
+[74.499705] (ros2_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[74.551732] (-) TimerEvent: {}
+[74.621138] (ros2_pkg) CommandEnded: {'returncode': 2}
+[74.675042] (-) TimerEvent: {}
+[74.780937] (-) TimerEvent: {}
+[74.886744] (-) TimerEvent: {}
+[74.904032] (ros2_pkg) JobEnded: {'identifier': 'ros2_pkg', 'rc': 2}
+[74.920611] (-) EventReactorShutdown: {}

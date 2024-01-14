@@ -1,0 +1,299 @@
+[0.000000] (-) TimerEvent: {}
+[0.001372] (ros2_pkg) JobQueued: {'identifier': 'ros2_pkg', 'dependencies': OrderedDict()}
+[0.001630] (ros2_pkg) JobStarted: {'identifier': 'ros2_pkg'}
+[0.061809] (ros2_pkg) JobProgress: {'identifier': 'ros2_pkg', 'progress': 'cmake'}
+[0.064368] (ros2_pkg) JobProgress: {'identifier': 'ros2_pkg', 'progress': 'build'}
+[0.065220] (ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/media/psf/Developer/Robotics/char-01/build/ros2_pkg', '--', '-j2', '-l2'], 'cwd': '/media/psf/Developer/Robotics/char-01/build/ros2_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'parallels'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib:/media/psf/Developer/robotics/ros_env/install/ros2_pkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/parallels'), ('OLDPWD', '/home/parallels'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2628'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/media/psf/Developer/Robotics/char-01/install:/media/psf/Developer/robotics/ros_env/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'parallels'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'parallels'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu-linux-22-04-02-desktop:@/tmp/.ICE-unix/2608,unix/ubuntu-linux-22-04-02-desktop:/tmp/.ICE-unix/2608'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/83bf1f75_bc59_4c70_b419_0be25ee9e9d8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.784'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/media/psf/Developer/Robotics/char-01/install/ros2_pkg:/media/psf/Developer/robotics/ros_env/install/ros2_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/psf/Developer/Robotics/char-01/build/ros2_pkg'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages:/media/psf/Developer/robotics/ros_env/install/ros2_pkg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/media/psf/Developer/Robotics/char-01/install/ros2_pkg:/media/psf/Developer/robotics/ros_env/install/ros2_pkg:/opt/ros/humble')]), 'shell': False}
+[0.098731] (-) TimerEvent: {}
+[0.199298] (-) TimerEvent: {}
+[0.230742] (ros2_pkg) StdoutLine: {'line': b'[  1%] Built target ros2_pkg__cpp\n'}
+[0.253550] (ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_pkg__rosidl_generator_c\x1b[0m\n'}
+[0.289960] (ros2_pkg) StdoutLine: {'line': b'[  8%] Built target ros2_pkg__rosidl_generator_c\n'}
+[0.299433] (-) TimerEvent: {}
+[0.368993] (ros2_pkg) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_copy_ros2_pkg\n'}
+[0.399485] (-) TimerEvent: {}
+[0.405176] (ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target publisher\x1b[0m\n'}
+[0.499588] (-) TimerEvent: {}
+[0.538039] (ros2_pkg) StdoutLine: {'line': b'[ 11%] Built target publisher\n'}
+[0.563163] (ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target subscriber\x1b[0m\n'}
+[0.599717] (-) TimerEvent: {}
+[0.694240] (ros2_pkg) StdoutLine: {'line': b'[ 14%] Built target subscriber\n'}
+[0.699778] (-) TimerEvent: {}
+[0.715037] (ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rpm_pub\x1b[0m\n'}
+[0.799893] (-) TimerEvent: {}
+[0.850577] (ros2_pkg) StdoutLine: {'line': b'[ 17%] Built target rpm_pub\n'}
+[0.873217] (ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target speed_calc\x1b[0m\n'}
+[0.899987] (-) TimerEvent: {}
+[0.973978] (ros2_pkg) StdoutLine: {'line': b'[ 20%] Built target speed_calc\n'}
+[1.000248] (-) TimerEvent: {}
+[1.005039] (ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_pkg__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.077905] (ros2_pkg) StdoutLine: {'line': b'[ 28%] Built target ros2_pkg__rosidl_typesupport_cpp\n'}
+[1.100845] (-) TimerEvent: {}
+[1.101874] (ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_pkg__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.165528] (ros2_pkg) StdoutLine: {'line': b'[ 35%] Built target ros2_pkg__rosidl_typesupport_fastrtps_c\n'}
+[1.190213] (ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_pkg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.200932] (-) TimerEvent: {}
+[1.278918] (ros2_pkg) StdoutLine: {'line': b'[ 43%] Built target ros2_pkg__rosidl_typesupport_fastrtps_cpp\n'}
+[1.301035] (-) TimerEvent: {}
+[1.304331] (ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_pkg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.353709] (ros2_pkg) StdoutLine: {'line': b'[ 50%] Built target ros2_pkg__rosidl_typesupport_introspection_c\n'}
+[1.381477] (ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_pkg__rosidl_typesupport_c\x1b[0m\n'}
+[1.401133] (-) TimerEvent: {}
+[1.416427] (ros2_pkg) StdoutLine: {'line': b'[ 58%] Built target ros2_pkg__rosidl_typesupport_c\n'}
+[1.440056] (ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_pkg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.494226] (ros2_pkg) StdoutLine: {'line': b'[ 65%] Built target ros2_pkg__rosidl_typesupport_introspection_cpp\n'}
+[1.501234] (-) TimerEvent: {}
+[1.601518] (-) TimerEvent: {}
+[1.701884] (-) TimerEvent: {}
+[1.711309] (ros2_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.711859] (ros2_pkg) StdoutLine: {'line': b'writing ros2_pkg.egg-info/PKG-INFO\n'}
+[1.712829] (ros2_pkg) StdoutLine: {'line': b'writing dependency_links to ros2_pkg.egg-info/dependency_links.txt\n'}
+[1.713614] (ros2_pkg) StdoutLine: {'line': b'writing top-level names to ros2_pkg.egg-info/top_level.txt\n'}
+[1.717371] (ros2_pkg) StdoutLine: {'line': b"reading manifest file 'ros2_pkg.egg-info/SOURCES.txt'\n"}
+[1.718381] (ros2_pkg) StdoutLine: {'line': b"writing manifest file 'ros2_pkg.egg-info/SOURCES.txt'\n"}
+[1.751054] (ros2_pkg) StdoutLine: {'line': b'[ 65%] Built target ament_cmake_python_build_ros2_pkg_egg\n'}
+[1.774688] (ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target service_server\x1b[0m\n'}
+[1.801992] (-) TimerEvent: {}
+[1.871331] (ros2_pkg) StdoutLine: {'line': b'[ 68%] Built target service_server\n'}
+[1.895326] (ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target service_client\x1b[0m\n'}
+[1.902075] (-) TimerEvent: {}
+[1.993321] (ros2_pkg) StdoutLine: {'line': b'[ 71%] Built target service_client\n'}
+[2.002330] (-) TimerEvent: {}
+[2.017369] (ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turn_camera_service\x1b[0m\n'}
+[2.102438] (-) TimerEvent: {}
+[2.125470] (ros2_pkg) StdoutLine: {'line': b'[ 74%] Built target turn_camera_service\n'}
+[2.147443] (ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turn_camera_client\x1b[0m\n'}
+[2.202533] (-) TimerEvent: {}
+[2.211595] (ros2_pkg) StdoutLine: {'line': b'[ 77%] Built target turn_camera_client\n'}
+[2.231003] (ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_server\x1b[0m\n'}
+[2.302634] (-) TimerEvent: {}
+[2.311247] (ros2_pkg) StdoutLine: {'line': b'[ 80%] Built target action_server\n'}
+[2.331804] (ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_client\x1b[0m\n'}
+[2.403511] (-) TimerEvent: {}
+[2.405924] (ros2_pkg) StdoutLine: {'line': b'[ 83%] Built target action_client\n'}
+[2.443984] (ros2_pkg) StdoutLine: {'line': b'[ 83%] Built target ros2_pkg\n'}
+[2.479072] (ros2_pkg) StdoutLine: {'line': b'[ 85%] Built target ros2_pkg__py\n'}
+[2.498775] (ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_pkg__rosidl_generator_py\x1b[0m\n'}
+[2.503867] (-) TimerEvent: {}
+[2.547512] (ros2_pkg) StdoutLine: {'line': b'[ 91%] Built target ros2_pkg__rosidl_generator_py\n'}
+[2.567751] (ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_pkg__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[2.603982] (-) TimerEvent: {}
+[2.606344] (ros2_pkg) StdoutLine: {'line': b'[ 94%] Built target ros2_pkg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.624394] (ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_pkg__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[2.663506] (ros2_pkg) StdoutLine: {'line': b'[ 97%] Built target ros2_pkg__rosidl_typesupport_introspection_c__pyext\n'}
+[2.680705] (ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_pkg__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[2.704892] (-) TimerEvent: {}
+[2.720459] (ros2_pkg) StdoutLine: {'line': b'[100%] Built target ros2_pkg__rosidl_typesupport_c__pyext\n'}
+[2.745152] (ros2_pkg) CommandEnded: {'returncode': 0}
+[2.804968] (-) TimerEvent: {}
+[2.905274] (-) TimerEvent: {}
+[3.005544] (-) TimerEvent: {}
+[3.041297] (ros2_pkg) JobProgress: {'identifier': 'ros2_pkg', 'progress': 'install'}
+[3.059984] (ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/media/psf/Developer/Robotics/char-01/build/ros2_pkg'], 'cwd': '/media/psf/Developer/Robotics/char-01/build/ros2_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'parallels'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib:/media/psf/Developer/robotics/ros_env/install/ros2_pkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/parallels'), ('OLDPWD', '/home/parallels'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2628'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/media/psf/Developer/Robotics/char-01/install:/media/psf/Developer/robotics/ros_env/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'parallels'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'parallels'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu-linux-22-04-02-desktop:@/tmp/.ICE-unix/2608,unix/ubuntu-linux-22-04-02-desktop:/tmp/.ICE-unix/2608'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/83bf1f75_bc59_4c70_b419_0be25ee9e9d8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.784'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/media/psf/Developer/Robotics/char-01/install/ros2_pkg:/media/psf/Developer/robotics/ros_env/install/ros2_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/media/psf/Developer/Robotics/char-01/build/ros2_pkg'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages:/media/psf/Developer/robotics/ros_env/install/ros2_pkg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/media/psf/Developer/Robotics/char-01/install/ros2_pkg:/media/psf/Developer/robotics/ros_env/install/ros2_pkg:/opt/ros/humble')]), 'shell': False}
+[3.084297] (ros2_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.085584] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ament_index/resource_index/rosidl_interfaces/ros2_pkg\n'}
+[3.086215] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg\n'}
+[3.088185] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/msg\n'}
+[3.089464] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.089933] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action\n'}
+[3.091211] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/navigate.h\n'}
+[3.091694] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail\n'}
+[3.092171] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail/navigate__struct.h\n'}
+[3.092351] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail/navigate__functions.h\n'}
+[3.092693] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail/navigate__type_support.h\n'}
+[3.092992] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail/navigate__functions.c\n'}
+[3.093394] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv\n'}
+[3.094560] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/odd_even_check.h\n'}
+[3.094757] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail\n'}
+[3.095168] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/odd_even_check__functions.h\n'}
+[3.095326] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/odd_even_check__struct.h\n'}
+[3.095595] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/turn_camera__functions.h\n'}
+[3.095766] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/odd_even_check__type_support.h\n'}
+[3.095998] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/turn_camera__struct.h\n'}
+[3.096160] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/odd_even_check__functions.c\n'}
+[3.096369] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/turn_camera__type_support.h\n'}
+[3.096557] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/turn_camera__functions.c\n'}
+[3.096858] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/turn_camera.h\n'}
+[3.097221] (ros2_pkg) StdoutLine: {'line': b'-- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/environment/library_path.sh\n'}
+[3.099096] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/environment/library_path.dsv\n'}
+[3.100085] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/libros2_pkg__rosidl_generator_c.so\n'}
+[3.100972] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg\n'}
+[3.101540] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/msg\n'}
+[3.102068] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.102388] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action\n'}
+[3.102837] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail\n'}
+[3.103541] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail/navigate__rosidl_typesupport_fastrtps_c.h\n'}
+[3.103779] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv\n'}
+[3.104250] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail\n'}
+[3.105610] (-) TimerEvent: {}
+[3.105792] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/turn_camera__rosidl_typesupport_fastrtps_c.h\n'}
+[3.106031] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_fastrtps_c.h\n'}
+[3.107464] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/libros2_pkg__rosidl_typesupport_fastrtps_c.so\n'}
+[3.108147] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg\n'}
+[3.108599] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action\n'}
+[3.108968] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/navigate.hpp\n'}
+[3.109108] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail\n'}
+[3.109558] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail/navigate__traits.hpp\n'}
+[3.109724] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail/navigate__struct.hpp\n'}
+[3.109914] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail/navigate__builder.hpp\n'}
+[3.110053] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv\n'}
+[3.110596] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/turn_camera.hpp\n'}
+[3.110815] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/odd_even_check.hpp\n'}
+[3.110955] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail\n'}
+[3.111462] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/odd_even_check__struct.hpp\n'}
+[3.111658] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/turn_camera__traits.hpp\n'}
+[3.111837] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/odd_even_check__traits.hpp\n'}
+[3.112015] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/turn_camera__struct.hpp\n'}
+[3.112253] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/turn_camera__builder.hpp\n'}
+[3.112489] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/odd_even_check__builder.hpp\n'}
+[3.112822] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg\n'}
+[3.113342] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/msg\n'}
+[3.113810] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.114002] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action\n'}
+[3.114440] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail\n'}
+[3.114971] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail/navigate__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.115374] (ros2_pkg) StdoutLine: {'line': b'-- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail/dds_fastrtps\n'}
+[3.116272] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv\n'}
+[3.116593] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail\n'}
+[3.116941] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.117194] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/turn_camera__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.117343] (ros2_pkg) StdoutLine: {'line': b'-- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/dds_fastrtps\n'}
+[3.118846] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/libros2_pkg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.119656] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg\n'}
+[3.120027] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/msg\n'}
+[3.120528] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.120710] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action\n'}
+[3.121012] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail\n'}
+[3.121447] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail/navigate__rosidl_typesupport_introspection_c.h\n'}
+[3.121632] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail/navigate__type_support.c\n'}
+[3.121780] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv\n'}
+[3.122068] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail\n'}
+[3.122461] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/turn_camera__type_support.c\n'}
+[3.122640] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/turn_camera__rosidl_typesupport_introspection_c.h\n'}
+[3.122835] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_introspection_c.h\n'}
+[3.123006] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/odd_even_check__type_support.c\n'}
+[3.124058] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/libros2_pkg__rosidl_typesupport_introspection_c.so\n'}
+[3.125412] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/libros2_pkg__rosidl_typesupport_c.so\n'}
+[3.126003] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg\n'}
+[3.126362] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action\n'}
+[3.126667] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail\n'}
+[3.127028] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail/navigate__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.127196] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail/navigate__type_support.cpp\n'}
+[3.127426] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv\n'}
+[3.127758] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail\n'}
+[3.128136] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/odd_even_check__type_support.cpp\n'}
+[3.128415] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.128629] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/turn_camera__type_support.cpp\n'}
+[3.128805] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/turn_camera__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.129667] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/libros2_pkg__rosidl_typesupport_introspection_cpp.so\n'}
+[3.130830] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/libros2_pkg__rosidl_typesupport_cpp.so\n'}
+[3.132527] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/environment/pythonpath.sh\n'}
+[3.133669] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/environment/pythonpath.dsv\n'}
+[3.134261] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg-0.0.0-py3.10.egg-info\n'}
+[3.134757] (ros2_pkg) StdoutLine: {'line': b'-- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.137333] (ros2_pkg) StdoutLine: {'line': b'-- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.138907] (ros2_pkg) StdoutLine: {'line': b'-- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.141074] (ros2_pkg) StdoutLine: {'line': b'-- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.142920] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg\n'}
+[3.143384] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.143688] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/libros2_pkg__rosidl_generator_py.so\n'}
+[3.143859] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/_ros2_pkg_s.ep.rosidl_typesupport_c.c\n'}
+[3.144018] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/__init__.py\n'}
+[3.144255] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/ros2_pkg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.144420] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/action\n'}
+[3.144754] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/action/_navigate_s.c\n'}
+[3.144993] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/action/_navigate.py\n'}
+[3.145262] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/action/__init__.py\n'}
+[3.145450] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/ros2_pkg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.145571] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/_ros2_pkg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.145707] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/srv\n'}
+[3.146060] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/srv/_turn_camera.py\n'}
+[3.146277] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/srv/__init__.py\n'}
+[3.146463] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/srv/_odd_even_check_s.c\n'}
+[3.146635] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/srv/_odd_even_check.py\n'}
+[3.146809] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/srv/_turn_camera_s.c\n'}
+[3.147049] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/ros2_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.199884] (ros2_pkg) StdoutLine: {'line': b"Listing '/media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg'...\n"}
+[3.200457] (ros2_pkg) StdoutLine: {'line': b"Compiling '/media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/__init__.py'...\n"}
+[3.200674] (ros2_pkg) StdoutLine: {'line': b"Listing '/media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/action'...\n"}
+[3.200937] (ros2_pkg) StdoutLine: {'line': b"Compiling '/media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/action/__init__.py'...\n"}
+[3.201068] (ros2_pkg) StdoutLine: {'line': b"Compiling '/media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/action/_navigate.py'...\n"}
+[3.201631] (ros2_pkg) StdoutLine: {'line': b"Listing '/media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/srv'...\n"}
+[3.201764] (ros2_pkg) StdoutLine: {'line': b"Compiling '/media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/srv/__init__.py'...\n"}
+[3.201892] (ros2_pkg) StdoutLine: {'line': b"Compiling '/media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/srv/_odd_even_check.py'...\n"}
+[3.202499] (ros2_pkg) StdoutLine: {'line': b"Compiling '/media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/srv/_turn_camera.py'...\n"}
+[3.205694] (-) TimerEvent: {}
+[3.207661] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/ros2_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.209575] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/ros2_pkg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.211411] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/ros2_pkg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.213508] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/libros2_pkg__rosidl_generator_py.so\n'}
+[3.214499] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/srv/OddEvenCheck.idl\n'}
+[3.214924] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/srv/TurnCamera.idl\n'}
+[3.215454] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/action/Navigate.idl\n'}
+[3.215886] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/srv/OddEvenCheck.srv\n'}
+[3.216664] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/srv/OddEvenCheck_Request.msg\n'}
+[3.217039] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/srv/OddEvenCheck_Response.msg\n'}
+[3.217473] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/srv/TurnCamera.srv\n'}
+[3.217838] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/srv/TurnCamera_Request.msg\n'}
+[3.218281] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/srv/TurnCamera_Response.msg\n'}
+[3.218658] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/action/Navigate.action\n'}
+[3.219967] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/ros2_pkg/publisher\n'}
+[3.223502] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/ros2_pkg/subscriber\n'}
+[3.225364] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/ros2_pkg/rpm_pub\n'}
+[3.227654] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/ros2_pkg/speed_calc\n'}
+[3.229242] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/ros2_pkg/service_server\n'}
+[3.230832] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/ros2_pkg/service_client\n'}
+[3.233899] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/ros2_pkg/turn_camera_service\n'}
+[3.235953] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/ros2_pkg/turn_camera_client\n'}
+[3.238804] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/ros2_pkg/action_server\n'}
+[3.240813] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/ros2_pkg/action_client\n'}
+[3.241577] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg//launch\n'}
+[3.241980] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg//launch/launch_project.launch.py\n'}
+[3.242276] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg//launch/rpm_node.launch.py\n'}
+[3.242572] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ament_index/resource_index/package_run_dependencies/ros2_pkg\n'}
+[3.242894] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ament_index/resource_index/parent_prefix_path/ros2_pkg\n'}
+[3.243113] (ros2_pkg) StdoutLine: {'line': b'-- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/environment/ament_prefix_path.sh\n'}
+[3.244941] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/environment/ament_prefix_path.dsv\n'}
+[3.245306] (ros2_pkg) StdoutLine: {'line': b'-- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/environment/path.sh\n'}
+[3.246520] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/environment/path.dsv\n'}
+[3.246955] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/local_setup.bash\n'}
+[3.247230] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/local_setup.sh\n'}
+[3.247435] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/local_setup.zsh\n'}
+[3.247569] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/local_setup.dsv\n'}
+[3.247730] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/package.dsv\n'}
+[3.248086] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ament_index/resource_index/packages/ros2_pkg\n'}
+[3.249202] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/export_ros2_pkg__rosidl_generator_cExport.cmake\n'}
+[3.249542] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/export_ros2_pkg__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.250180] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/export_ros2_pkg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.250378] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/export_ros2_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.251419] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/export_ros2_pkg__rosidl_generator_cppExport.cmake\n'}
+[3.252384] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/export_ros2_pkg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.252791] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/export_ros2_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.253807] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/ros2_pkg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.254324] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/ros2_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.255101] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/ros2_pkg__rosidl_typesupport_cExport.cmake\n'}
+[3.255353] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/ros2_pkg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.256230] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/ros2_pkg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.256481] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/ros2_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.257555] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/ros2_pkg__rosidl_typesupport_cppExport.cmake\n'}
+[3.257899] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/ros2_pkg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.258687] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/export_ros2_pkg__rosidl_generator_pyExport.cmake\n'}
+[3.258951] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/export_ros2_pkg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.259137] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/rosidl_cmake-extras.cmake\n'}
+[3.259297] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.259556] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.259933] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.260130] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.260358] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.260630] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.260888] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/ros2_pkgConfig.cmake\n'}
+[3.261068] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/ros2_pkgConfig-version.cmake\n'}
+[3.261401] (ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/package.xml\n'}
+[3.264018] (ros2_pkg) CommandEnded: {'returncode': 0}
+[3.305769] (-) TimerEvent: {}
+[3.406008] (-) TimerEvent: {}
+[3.506634] (-) TimerEvent: {}
+[3.607024] (-) TimerEvent: {}
+[3.707439] (-) TimerEvent: {}
+[3.777516] (ros2_pkg) JobEnded: {'identifier': 'ros2_pkg', 'rc': 0}
+[3.778833] (-) EventReactorShutdown: {}

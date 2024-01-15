@@ -4,7 +4,7 @@
         <pose>0 0 .12 0 0 0</pose>
 
         <frame name="lidar_frame" attached_to='chassis'>
-            <pose>0.8 0 0.5 0 0 0</pose>
+            <pose>0.1 0 0.6 0 0 0</pose>
         </frame>
 
 
@@ -80,12 +80,14 @@
                     </box>
                 </geometry>
             </collision>
+         
             <sensor name="imu_sensor" type="imu">
                 <always_on>1</always_on>
                 <update_rate>1</update_rate>
                 <visualize>true</visualize>
                 <topic>imu</topic>
             </sensor>
+            <!-- Default
             <sensor name='gpu_lidar' type='gpu_lidar'>
                 <pose relative_to='lidar_frame'>0 0 0 0 0 0</pose>
                 <topic>lidar</topic>
@@ -108,6 +110,35 @@
                     <range>
                         <min>0.08</min>
                         <max>10.0</max>
+                        <resolution>0.01</resolution>
+                    </range>
+                </ray>
+                <always_on>1</always_on>
+                <visualize>true</visualize>
+            </sensor>
+            -->
+            <sensor name='gpu_lidar' type='gpu_lidar'>
+                <pose relative_to='lidar_frame'>0 0 0 0 0 0</pose>
+                <topic>lidar</topic>
+                <update_rate>5.5</update_rate>
+                <ray>
+                    <scan>
+                        <horizontal>
+                            <samples>640</samples>
+                            <resolution>1</resolution>
+                            <min_angle>-3.14159</min_angle>
+                            <max_angle>3.14159</max_angle>
+                        </horizontal>
+                        <vertical>
+                            <samples>1</samples>
+                            <resolution>0.01</resolution>
+                            <min_angle>0</min_angle>
+                            <max_angle>0</max_angle>
+                        </vertical>
+                    </scan>
+                    <range>
+                        <min>0.08</min>
+                        <max>6.0</max>
                         <resolution>0.01</resolution>
                     </range>
                 </ray>
@@ -269,7 +300,6 @@
               
     </model>
 </sdf>
-
 
 
 

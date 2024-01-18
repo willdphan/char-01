@@ -1,0 +1,9 @@
+[  1%] Built target ros2_pkg__cpp
+[  8%] Built target ros2_pkg__rosidl_generator_c
+[  8%] Built target ament_cmake_python_copy_ros2_pkg
+[ 11%] Built target publisher
+[ 14%] Built target subscriber
+[ 17%] Built target rpm_pub
+[ 20%] Built target speed_calc
+[ 21%] [32mBuilding CXX object CMakeFiles/lidar_node.dir/sensors/lidar_node.cc.o[0m
+[ 28%] Built target ros2_pkg__rosidl_typesupport_cpp

@@ -1,1 +1,0 @@
-/media/psf/Developer/Robotics/char-01/char_01/build/ros2_pkg/rosidl_generator_py/ros2_pkg/_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c

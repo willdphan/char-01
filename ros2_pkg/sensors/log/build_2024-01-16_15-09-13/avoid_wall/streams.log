@@ -1,0 +1,33 @@
+[0.045s] Invoking command in '/media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/build/avoid_wall': /usr/bin/cmake /media/psf/Developer/Robotics/char-01/ros2_pkg/sensors -DCMAKE_INSTALL_PREFIX=/media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/install/avoid_wall
+[0.171s] -- The C compiler identification is GNU 11.4.0
+[0.243s] -- The CXX compiler identification is GNU 11.4.0
+[0.262s] -- Detecting C compiler ABI info
+[0.372s] -- Detecting C compiler ABI info - done
+[0.378s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.378s] -- Detecting C compile features
+[0.379s] -- Detecting C compile features - done
+[0.383s] -- Detecting CXX compiler ABI info
+[0.510s] -- Detecting CXX compiler ABI info - done
+[0.517s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.517s] -- Detecting CXX compile features
+[0.518s] -- Detecting CXX compile features - done
+[0.538s] [31mCMake Error at CMakeLists.txt:6 (find_package):
+[0.538s]   By not providing "Findignition-transport11.cmake" in CMAKE_MODULE_PATH this
+[0.538s]   project has asked CMake to find a package configuration file provided by
+[0.538s]   "ignition-transport11", but CMake did not find one.
+[0.539s] 
+[0.539s]   Could not find a package configuration file provided by
+[0.539s]   "ignition-transport11" with any of the following names:
+[0.539s] 
+[0.539s]     ignition-transport11Config.cmake
+[0.540s]     ignition-transport11-config.cmake
+[0.540s] 
+[0.540s]   Add the installation prefix of "ignition-transport11" to CMAKE_PREFIX_PATH
+[0.540s]   or set "ignition-transport11_DIR" to a directory containing one of the
+[0.540s]   above files.  If "ignition-transport11" provides a separate development
+[0.540s]   package or SDK, be sure it has been installed.
+[0.540s] 
+[0.540s] [0m
+[0.541s] -- Configuring incomplete, errors occurred!
+[0.541s] See also "/media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/build/avoid_wall/CMakeFiles/CMakeOutput.log".
+[0.543s] Invoked command in '/media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/build/avoid_wall' returned '1': /usr/bin/cmake /media/psf/Developer/Robotics/char-01/ros2_pkg/sensors -DCMAKE_INSTALL_PREFIX=/media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/install/avoid_wall

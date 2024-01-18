@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/media/psf/Developer/Robotics/char-01/char_01/build/ros2_pkg/rosidl_generator_py/ros2_pkg/ros2_pkg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" "TARGETS" "ros2_pkg__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/ros2_pkg")

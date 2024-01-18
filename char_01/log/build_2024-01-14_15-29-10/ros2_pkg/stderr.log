@@ -1,7 +1,0 @@
-[01m[K/media/psf/Developer/Robotics/char-01/char_01/ros2_pkg/src/action_server.cpp:132:1:[m[K [01;31m[Kfatal error: [m[Kopening dependency file CMakeFiles/action_server.dir/src/action_server.cpp.o.d: No such file or directory
-  132 | [01;31m[K}[m[K
-      | [01;31m[K^[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/action_server.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:823: CMakeFiles/action_server.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

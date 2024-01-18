@@ -1,0 +1,79 @@
+[0.067s] Invoking command in '/media/psf/Developer/Robotics/char-01/build/ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /media/psf/Developer/Robotics/char-01/build/ros2_pkg -- -j2 -l2
+[0.218s] [  1%] Built target ros2_pkg__cpp
+[0.227s] [  8%] Built target ros2_pkg__rosidl_generator_c
+[0.294s] [ 11%] Built target publisher
+[0.301s] [ 11%] Built target ament_cmake_python_symlink_ros2_pkg
+[0.348s] [ 14%] Built target subscriber
+[0.360s] [ 16%] Built target rpm_pub
+[0.403s] [ 19%] Built target speed_calc
+[0.420s] [ 26%] Built target ros2_pkg__rosidl_typesupport_cpp
+[0.477s] [ 33%] Built target ros2_pkg__rosidl_typesupport_fastrtps_c
+[0.491s] [ 40%] Built target ros2_pkg__rosidl_typesupport_fastrtps_cpp
+[0.531s] [ 47%] Built target ros2_pkg__rosidl_typesupport_introspection_c
+[0.548s] [ 54%] Built target ros2_pkg__rosidl_typesupport_c
+[0.592s] [ 61%] Built target ros2_pkg__rosidl_typesupport_introspection_cpp
+[0.641s] [ 64%] Built target service_server
+[0.697s] [ 67%] Built target service_client
+[0.741s] running egg_info
+[0.742s] writing ros2_pkg.egg-info/PKG-INFO
+[0.742s] writing dependency_links to ros2_pkg.egg-info/dependency_links.txt
+[0.743s] writing top-level names to ros2_pkg.egg-info/top_level.txt
+[0.747s] reading manifest file 'ros2_pkg.egg-info/SOURCES.txt'
+[0.749s] writing manifest file 'ros2_pkg.egg-info/SOURCES.txt'
+[0.769s] [ 70%] Built target turn_camera_service
+[0.787s] [ 70%] Built target ament_cmake_python_build_ros2_pkg_egg
+[0.850s] [ 73%] Built target turn_camera_client
+[0.858s] [ 76%] Built target action_server
+[0.908s] [ 81%] Built target lidar_node
+[0.909s] [ 81%] Built target action_client
+[0.957s] [ 83%] [32mBuilding CXX object CMakeFiles/control.dir/src/control.cpp.o[0m
+[2.268s] [01m[K/media/psf/Developer/Robotics/char-01/ros2_pkg/src/control.cpp:12:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ does not name a type
+[2.268s]    12 | [01;31m[Kros[m[K::Publisher pub;
+[2.269s]       | [01;31m[K^~~[m[K
+[2.269s] [01m[K/media/psf/Developer/Robotics/char-01/ros2_pkg/src/control.cpp:15:31:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[Kstd_msgs[m[K’ does not name a type
+[2.269s]    15 | void callback(const std_msgs::[01;31m[KString[m[K::ConstPtr& msg)
+[2.269s]       |                               [01;31m[K^~~~~~[m[K
+[2.269s] [01m[K/media/psf/Developer/Robotics/char-01/ros2_pkg/src/control.cpp:15:47:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+[2.270s]    15 | void callback(const std_msgs::String::ConstPtr[01;31m[K&[m[K msg)
+[2.270s]       |                                               [01;31m[K^[m[K
+[2.270s] [01m[K/media/psf/Developer/Robotics/char-01/ros2_pkg/src/control.cpp:15:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[2.270s]    15 | void callback[34m[K([m[Kconst std_msgs::String::ConstPtr[01;31m[K&[m[K msg)
+[2.271s]       |              [34m[K~[m[K                                [01;31m[K^[m[K
+[2.271s]       |                                               [32m[K)[m[K
+[2.271s] [01m[K/media/psf/Developer/Robotics/char-01/ros2_pkg/src/control.cpp:15:49:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+[2.271s]    15 | void callback(const std_msgs::String::ConstPtr& [01;31m[Kmsg[m[K)
+[2.272s]       |                                                 [01;31m[K^~~[m[K
+[2.272s] [01m[K/media/psf/Developer/Robotics/char-01/ros2_pkg/src/control.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.272s] [01m[K/media/psf/Developer/Robotics/char-01/ros2_pkg/src/control.cpp:43:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[2.272s]    43 |     [01;31m[Kros[m[K::init(argc, argv, "control_node");
+[2.272s]       |     [01;31m[K^~~[m[K
+[2.273s] [01m[K/media/psf/Developer/Robotics/char-01/ros2_pkg/src/control.cpp:46:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[2.273s]    46 |     [01;31m[Kros[m[K::NodeHandle nh;
+[2.273s]       |     [01;31m[K^~~[m[K
+[2.274s] [01m[K/media/psf/Developer/Robotics/char-01/ros2_pkg/src/control.cpp:49:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub[m[K’ was not declared in this scope
+[2.274s]    49 |     [01;31m[Kpub[m[K = nh.advertise<geometry_msgs::Twist>("/cmd_vel", 10);
+[2.274s]       |     [01;31m[K^~~[m[K
+[2.274s] [01m[K/media/psf/Developer/Robotics/char-01/ros2_pkg/src/control.cpp:49:11:[m[K [01;31m[Kerror: [m[K‘[01m[Knh[m[K’ was not declared in this scope
+[2.275s]    49 |     pub = [01;31m[Knh[m[K.advertise<geometry_msgs::Twist>("/cmd_vel", 10);
+[2.275s]       |           [01;31m[K^~[m[K
+[2.275s] [01m[K/media/psf/Developer/Robotics/char-01/ros2_pkg/src/control.cpp:49:39:[m[K [01;31m[Kerror: [m[K‘[01m[KTwist[m[K’ is not a member of ‘[01m[Kgeometry_msgs[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::Twist[m[K’?
+[2.275s]    49 |     pub = nh.advertise<geometry_msgs::[01;31m[KTwist[m[K>("/cmd_vel", 10);
+[2.276s]       |                                       [01;31m[K^~~~~[m[K
+[2.276s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7[m[K,
+[2.276s]                  from [01m[K/media/psf/Developer/Robotics/char-01/ros2_pkg/src/control.cpp:7[m[K:
+[2.276s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:134:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Twist[m[K’ declared here
+[2.276s]   134 | using [01;36m[KTwist[m[K =
+[2.276s]       |       [01;36m[K^~~~~[m[K
+[2.276s] [01m[K/media/psf/Developer/Robotics/char-01/ros2_pkg/src/control.cpp:49:46:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[2.277s]    49 |     pub = nh.advertise<geometry_msgs::Twist>([01;35m[K"/cmd_vel"[m[K, 10);
+[2.277s]       |                                              [01;35m[K^~~~~~~~~~[m[K
+[2.277s] [01m[K/media/psf/Developer/Robotics/char-01/ros2_pkg/src/control.cpp:52:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[2.277s]    52 |     [01;31m[Kros[m[K::Subscriber sub = nh.subscribe("/prediction", 10, callback);
+[2.277s]       |     [01;31m[K^~~[m[K
+[2.277s] [01m[K/media/psf/Developer/Robotics/char-01/ros2_pkg/src/control.cpp:55:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[2.277s]    55 |     [01;31m[Kros[m[K::spin();
+[2.277s]       |     [01;31m[K^~~[m[K
+[2.510s] gmake[2]: *** [CMakeFiles/control.dir/build.make:76: CMakeFiles/control.dir/src/control.cpp.o] Error 1
+[2.510s] gmake[1]: *** [CMakeFiles/Makefile2:908: CMakeFiles/control.dir/all] Error 2
+[2.511s] gmake: *** [Makefile:146: all] Error 2
+[2.512s] Invoked command in '/media/psf/Developer/Robotics/char-01/build/ros2_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /media/psf/Developer/Robotics/char-01/build/ros2_pkg -- -j2 -l2

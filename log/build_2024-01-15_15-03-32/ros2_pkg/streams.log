@@ -1,0 +1,331 @@
+[0.039s] Invoking command in '/media/psf/Developer/Robotics/char-01/build/ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /media/psf/Developer/Robotics/char-01/ros2_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/media/psf/Developer/Robotics/char-01/install/ros2_pkg
+[0.150s] -- The C compiler identification is GNU 11.4.0
+[0.228s] -- The CXX compiler identification is GNU 11.4.0
+[0.237s] -- Detecting C compiler ABI info
+[0.340s] -- Detecting C compiler ABI info - done
+[0.347s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.347s] -- Detecting C compile features
+[0.348s] -- Detecting C compile features - done
+[0.352s] -- Detecting CXX compiler ABI info
+[0.465s] -- Detecting CXX compiler ABI info - done
+[0.471s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.472s] -- Detecting CXX compile features
+[0.472s] -- Detecting CXX compile features - done
+[0.479s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.614s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.659s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.727s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.790s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.800s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.813s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.831s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.860s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.958s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.963s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.071s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.098s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.145s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.159s] -- Looking for pthread.h
+[1.253s] -- Looking for pthread.h - found
+[1.254s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.354s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.355s] -- Found Threads: TRUE  
+[1.493s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.506s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.614s] -- Found OpenCV: /usr (found version "4.5.4") 
+[1.618s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.627s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[1.678s] -- Found rclcpp_action: 16.0.7 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.991s] -- Found ament_cmake_cppcheck: 0.12.9 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.995s] -- Found ament_cmake_cpplint: 0.12.9 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[2.000s] -- Found ament_cmake_uncrustify: 0.12.9 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[2.005s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.540s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.746s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.765s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.769s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.793s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.793s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.793s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.793s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[2.809s] -- Found PythonExtra: .so  
+[2.915s] -- Found ament_cmake_flake8: 0.12.9 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[2.920s] -- Found ament_cmake_pep257: 0.12.9 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[2.939s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.015s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.016s] -- Configured cppcheck include dirs: 
+[3.016s] -- Configured cppcheck exclude dirs and/or files: 
+[3.046s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.047s] -- Configured cpplint exclude dirs and/or files: 
+[3.075s] -- Added test 'uncrustify' to check C / C++ code style
+[3.075s] -- Configured uncrustify additional arguments: 
+[3.079s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.084s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.084s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.093s] -- Added test 'lint_cmake' to check CMake code style
+[3.100s] -- Added test 'xmllint' to check XML markup files
+[3.128s] -- Configuring done
+[3.413s] -- Generating done
+[3.442s] -- Build files have been written to: /media/psf/Developer/Robotics/char-01/build/ros2_pkg
+[3.446s] Invoked command in '/media/psf/Developer/Robotics/char-01/build/ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /media/psf/Developer/Robotics/char-01/ros2_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/media/psf/Developer/Robotics/char-01/install/ros2_pkg
+[3.449s] Invoking command in '/media/psf/Developer/Robotics/char-01/build/ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /media/psf/Developer/Robotics/char-01/build/ros2_pkg -- -j2 -l2
+[3.504s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.519s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.237s] [  2%] Built target ros2_pkg__cpp
+[4.287s] [  2%] Built target ament_cmake_python_symlink_ros2_pkg
+[4.324s] [  4%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[4.343s] [  5%] [32mBuilding C object CMakeFiles/ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/ros2_pkg/srv/detail/odd_even_check__functions.c.o[0m
+[4.417s] [  7%] [32mBuilding C object CMakeFiles/ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/ros2_pkg/srv/detail/turn_camera__functions.c.o[0m
+[4.480s] [  8%] [32mBuilding C object CMakeFiles/ros2_pkg__rosidl_generator_c.dir/rosidl_generator_c/ros2_pkg/action/detail/navigate__functions.c.o[0m
+[4.602s] [ 10%] [32m[1mLinking C shared library libros2_pkg__rosidl_generator_c.so[0m
+[4.672s] [ 10%] Built target ros2_pkg__rosidl_generator_c
+[4.706s] [ 11%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[8.394s] [ 13%] [32m[1mLinking CXX executable publisher[0m
+[8.743s] [ 13%] Built target publisher
+[8.790s] [ 14%] [32mBuilding CXX object CMakeFiles/rpm_pub.dir/src/rpm_pub.cpp.o[0m
+[11.571s] [ 16%] [32m[1mLinking CXX executable subscriber[0m
+[11.987s] [ 17%] [32m[1mLinking CXX executable rpm_pub[0m
+[12.108s] [ 17%] Built target subscriber
+[12.162s] [ 19%] [32mBuilding CXX object CMakeFiles/speed_calc.dir/src/speed_calc.cpp.o[0m
+[12.252s] [ 19%] Built target rpm_pub
+[12.284s] [ 20%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[12.661s] [ 22%] [32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_pkg/srv/odd_even_check__type_support.cpp.o[0m
+[13.052s] [ 23%] [32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_pkg/srv/turn_camera__type_support.cpp.o[0m
+[13.438s] [ 25%] [32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_pkg/action/navigate__type_support.cpp.o[0m
+[13.795s] [ 26%] [32m[1mLinking CXX shared library libros2_pkg__rosidl_typesupport_cpp.so[0m
+[13.857s] [ 26%] Built target ros2_pkg__rosidl_typesupport_cpp
+[13.883s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[14.437s] [ 29%] [32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_pkg/srv/detail/odd_even_check__type_support_c.cpp.o[0m
+[14.762s] [ 31%] [32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_pkg/srv/detail/turn_camera__type_support_c.cpp.o[0m
+[15.095s] [ 32%] [32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_pkg/action/detail/navigate__type_support_c.cpp.o[0m
+[15.517s] [ 34%] [32m[1mLinking CXX shared library libros2_pkg__rosidl_typesupport_fastrtps_c.so[0m
+[15.601s] [ 34%] Built target ros2_pkg__rosidl_typesupport_fastrtps_c
+[15.624s] [ 35%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[16.089s] [ 37%] [32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_pkg/srv/detail/dds_fastrtps/odd_even_check__type_support.cpp.o[0m
+[16.422s] [ 38%] [32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_pkg/srv/detail/dds_fastrtps/turn_camera__type_support.cpp.o[0m
+[16.755s] [ 40%] [32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_pkg/action/detail/dds_fastrtps/navigate__type_support.cpp.o[0m
+[17.491s] [ 41%] [32m[1mLinking CXX shared library libros2_pkg__rosidl_typesupport_fastrtps_cpp.so[0m
+[17.573s] [ 41%] Built target ros2_pkg__rosidl_typesupport_fastrtps_cpp
+[17.592s] [ 43%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[18.046s] [ 44%] [32mBuilding C object CMakeFiles/ros2_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_pkg/srv/detail/odd_even_check__type_support.c.o[0m
+[18.178s] [ 46%] [32mBuilding C object CMakeFiles/ros2_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_pkg/srv/detail/turn_camera__type_support.c.o[0m
+[18.253s] [ 47%] [32mBuilding C object CMakeFiles/ros2_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_pkg/action/detail/navigate__type_support.c.o[0m
+[18.333s] [ 49%] [32m[1mLinking C shared library libros2_pkg__rosidl_typesupport_introspection_c.so[0m
+[18.417s] [ 49%] Built target ros2_pkg__rosidl_typesupport_introspection_c
+[18.437s] [ 50%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[18.676s] [ 52%] [32m[1mLinking CXX executable speed_calc[0m
+[18.801s] [ 53%] [32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_pkg/srv/odd_even_check__type_support.cpp.o[0m
+[18.873s] [ 55%] [32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_pkg/srv/turn_camera__type_support.cpp.o[0m
+[18.923s] [ 56%] [32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_pkg/action/navigate__type_support.cpp.o[0m
+[18.986s] [ 58%] [32m[1mLinking CXX shared library libros2_pkg__rosidl_typesupport_c.so[0m
+[19.069s] [ 58%] Built target ros2_pkg__rosidl_typesupport_c
+[19.087s] [ 59%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[19.133s] [ 59%] Built target speed_calc
+[19.467s] [ 61%] [32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_pkg/srv/detail/odd_even_check__type_support.cpp.o[0m
+[19.532s] running egg_info
+[19.533s] creating ros2_pkg.egg-info
+[19.534s] writing ros2_pkg.egg-info/PKG-INFO
+[19.535s] writing dependency_links to ros2_pkg.egg-info/dependency_links.txt
+[19.536s] writing top-level names to ros2_pkg.egg-info/top_level.txt
+[19.537s] writing manifest file 'ros2_pkg.egg-info/SOURCES.txt'
+[19.540s] reading manifest file 'ros2_pkg.egg-info/SOURCES.txt'
+[19.541s] writing manifest file 'ros2_pkg.egg-info/SOURCES.txt'
+[19.564s] [ 61%] Built target ament_cmake_python_build_ros2_pkg_egg
+[19.594s] [ 62%] [32mBuilding CXX object CMakeFiles/service_server.dir/src/service_server.cpp.o[0m
+[19.741s] [ 64%] [32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_pkg/srv/detail/turn_camera__type_support.cpp.o[0m
+[20.050s] [ 65%] [32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_pkg/action/detail/navigate__type_support.cpp.o[0m
+[20.460s] [ 67%] [32m[1mLinking CXX shared library libros2_pkg__rosidl_typesupport_introspection_cpp.so[0m
+[20.542s] [ 67%] Built target ros2_pkg__rosidl_typesupport_introspection_cpp
+[20.575s] [ 68%] [32mBuilding CXX object CMakeFiles/service_client.dir/src/service_client.cpp.o[0m
+[21.849s] [ 70%] [32m[1mLinking CXX executable service_server[0m
+[22.017s] [ 70%] Built target service_server
+[22.065s] [ 71%] [32mBuilding CXX object CMakeFiles/turn_camera_service.dir/src/turn_camera_service.cpp.o[0m
+[22.853s] [ 73%] [32m[1mLinking CXX executable service_client[0m
+[23.014s] [ 73%] Built target service_client
+[23.062s] [ 74%] [32mBuilding CXX object CMakeFiles/turn_camera_client.dir/src/turn_camera_client.cpp.o[0m
+[24.631s] [ 76%] [32m[1mLinking CXX executable turn_camera_service[0m
+[25.166s] [ 76%] Built target turn_camera_service
+[25.200s] [ 77%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[25.632s] [ 79%] [32m[1mLinking CXX executable turn_camera_client[0m
+[26.076s] [ 79%] Built target turn_camera_client
+[26.112s] [ 80%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o[0m
+[29.007s] [ 82%] [32m[1mLinking CXX executable action_client[0m
+[29.258s] [ 82%] Built target action_client
+[29.305s] [ 82%] Built target ros2_pkg
+[29.372s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[30.220s] [ 83%] Built target ros2_pkg__py
+[30.245s] [ 85%] [32mBuilding C object CMakeFiles/ros2_pkg__rosidl_generator_py.dir/rosidl_generator_py/ros2_pkg/srv/_odd_even_check_s.c.o[0m
+[30.525s] [ 86%] [32mBuilding C object CMakeFiles/ros2_pkg__rosidl_generator_py.dir/rosidl_generator_py/ros2_pkg/srv/_turn_camera_s.c.o[0m
+[30.690s] [ 88%] [32mBuilding C object CMakeFiles/ros2_pkg__rosidl_generator_py.dir/rosidl_generator_py/ros2_pkg/action/_navigate_s.c.o[0m
+[30.876s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/ros2_pkg/libros2_pkg__rosidl_generator_py.so[0m
+[30.942s] [ 89%] Built target ros2_pkg__rosidl_generator_py
+[31.001s] [ 91%] [32mBuilding C object CMakeFiles/ros2_pkg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros2_pkg/_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[31.271s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/ros2_pkg/ros2_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[31.331s] [ 92%] Built target ros2_pkg__rosidl_typesupport_fastrtps_c__pyext
+[31.365s] [ 94%] [32mBuilding C object CMakeFiles/ros2_pkg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros2_pkg/_ros2_pkg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[31.490s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/ros2_pkg/ros2_pkg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[31.597s] [ 95%] Built target ros2_pkg__rosidl_typesupport_introspection_c__pyext
+[31.671s] [ 97%] [32mBuilding C object CMakeFiles/ros2_pkg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros2_pkg/_ros2_pkg_s.ep.rosidl_typesupport_c.c.o[0m
+[31.792s] [ 98%] [32m[1mLinking CXX executable action_server[0m
+[31.912s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ros2_pkg/ros2_pkg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[32.023s] [100%] Built target ros2_pkg__rosidl_typesupport_c__pyext
+[32.355s] [100%] Built target action_server
+[32.492s] Invoked command in '/media/psf/Developer/Robotics/char-01/build/ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /media/psf/Developer/Robotics/char-01/build/ros2_pkg -- -j2 -l2
+[32.788s] Invoking command in '/media/psf/Developer/Robotics/char-01/build/ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /media/psf/Developer/Robotics/char-01/build/ros2_pkg
+[32.798s] -- Install configuration: ""
+[32.800s] -- Execute custom install script
+[32.802s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ament_index/resource_index/rosidl_interfaces/ros2_pkg
+[32.815s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail/navigate__functions.h
+[32.826s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail/navigate__struct.h
+[32.836s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail/navigate__type_support.h
+[32.845s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/navigate.h
+[32.855s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/msg/rosidl_generator_c__visibility_control.h
+[32.865s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/odd_even_check__functions.h
+[32.874s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/odd_even_check__struct.h
+[32.882s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/odd_even_check__type_support.h
+[32.897s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/turn_camera__functions.h
+[32.908s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/turn_camera__struct.h
+[32.918s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/turn_camera__type_support.h
+[32.928s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/odd_even_check.h
+[32.939s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/turn_camera.h
+[32.950s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/environment/library_path.sh
+[32.960s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/environment/library_path.dsv
+[32.975s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail/navigate__rosidl_typesupport_fastrtps_c.h
+[32.984s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[32.994s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_fastrtps_c.h
+[33.003s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/turn_camera__rosidl_typesupport_fastrtps_c.h
+[33.014s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail/navigate__builder.hpp
+[33.024s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail/navigate__struct.hpp
+[33.034s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail/navigate__traits.hpp
+[33.043s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/navigate.hpp
+[33.054s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/odd_even_check__builder.hpp
+[33.064s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/odd_even_check__struct.hpp
+[33.074s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/odd_even_check__traits.hpp
+[33.084s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/turn_camera__builder.hpp
+[33.094s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/turn_camera__struct.hpp
+[33.103s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/turn_camera__traits.hpp
+[33.112s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/odd_even_check.hpp
+[33.122s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/turn_camera.hpp
+[33.135s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail/navigate__rosidl_typesupport_fastrtps_cpp.hpp
+[33.144s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[33.156s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_fastrtps_cpp.hpp
+[33.167s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/turn_camera__rosidl_typesupport_fastrtps_cpp.hpp
+[33.178s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail/navigate__rosidl_typesupport_introspection_c.h
+[33.188s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[33.197s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_introspection_c.h
+[33.206s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/turn_camera__rosidl_typesupport_introspection_c.h
+[33.216s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail/navigate__rosidl_typesupport_introspection_cpp.hpp
+[33.226s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_introspection_cpp.hpp
+[33.236s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/turn_camera__rosidl_typesupport_introspection_cpp.hpp
+[33.244s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/environment/pythonpath.sh
+[33.261s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/environment/pythonpath.dsv
+[33.273s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+[33.282s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
+[33.292s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+[33.303s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg-0.0.0-py3.10.egg-info/top_level.txt
+[33.315s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/__init__.py
+[33.326s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/_ros2_pkg_s.ep.rosidl_typesupport_c.c
+[33.335s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/_ros2_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+[33.344s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/_ros2_pkg_s.ep.rosidl_typesupport_introspection_c.c
+[33.356s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/action/__init__.py
+[33.368s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/action/_navigate.py
+[33.380s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/action/_navigate_s.c
+[33.389s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/libros2_pkg__rosidl_generator_py.so
+[33.398s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/ros2_pkg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[33.407s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/ros2_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[33.417s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/ros2_pkg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[33.427s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/srv/__init__.py
+[33.437s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/srv/_odd_even_check.py
+[33.446s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/srv/_odd_even_check_s.c
+[33.458s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/srv/_turn_camera.py
+[33.468s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/srv/_turn_camera_s.c
+[33.477s] -- Up-to-date symlink: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/ros2_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[33.478s] -- Up-to-date symlink: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/ros2_pkg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[33.479s] -- Up-to-date symlink: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/ros2_pkg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[33.480s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/srv/OddEvenCheck.idl
+[33.490s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/srv/TurnCamera.idl
+[33.500s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/action/Navigate.idl
+[33.510s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/srv/OddEvenCheck.srv
+[33.521s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/srv/OddEvenCheck_Request.msg
+[33.532s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/srv/OddEvenCheck_Response.msg
+[33.541s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/srv/TurnCamera.srv
+[33.552s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/srv/TurnCamera_Request.msg
+[33.562s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/srv/TurnCamera_Response.msg
+[33.572s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/action/Navigate.action
+[33.583s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/ros2_pkg/publisher
+[33.593s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/ros2_pkg/subscriber
+[33.602s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/ros2_pkg/rpm_pub
+[33.611s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/ros2_pkg/speed_calc
+[33.620s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/ros2_pkg/service_server
+[33.630s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/ros2_pkg/service_client
+[33.640s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/ros2_pkg/turn_camera_service
+[33.651s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/ros2_pkg/turn_camera_client
+[33.662s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/ros2_pkg/action_server
+[33.671s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/ros2_pkg/action_client
+[33.681s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg//launch/launch_project.launch.py
+[33.691s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg//launch/rpm_node.launch.py
+[33.702s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ament_index/resource_index/package_run_dependencies/ros2_pkg
+[33.713s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ament_index/resource_index/parent_prefix_path/ros2_pkg
+[33.724s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/environment/ament_prefix_path.sh
+[33.735s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/environment/ament_prefix_path.dsv
+[33.744s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/environment/path.sh
+[33.755s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/environment/path.dsv
+[33.769s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/local_setup.bash
+[33.785s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/local_setup.sh
+[33.801s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/local_setup.zsh
+[33.814s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/local_setup.dsv
+[33.830s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/package.dsv
+[33.843s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ament_index/resource_index/packages/ros2_pkg
+[33.858s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/rosidl_cmake-extras.cmake
+[33.870s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[33.882s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[33.894s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+[33.905s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/ament_cmake_export_targets-extras.cmake
+[33.915s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[33.924s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[33.934s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/ros2_pkgConfig.cmake
+[33.943s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/ros2_pkgConfig-version.cmake
+[33.951s] -- Symlinking: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/package.xml
+[33.962s] -- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/libros2_pkg__rosidl_generator_c.so
+[33.969s] -- Set runtime path of "/media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/libros2_pkg__rosidl_generator_c.so" to ""
+[33.969s] -- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/libros2_pkg__rosidl_typesupport_fastrtps_c.so
+[33.973s] -- Set runtime path of "/media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/libros2_pkg__rosidl_typesupport_fastrtps_c.so" to ""
+[33.973s] -- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/libros2_pkg__rosidl_typesupport_fastrtps_cpp.so
+[33.977s] -- Set runtime path of "/media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/libros2_pkg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[33.977s] -- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/libros2_pkg__rosidl_typesupport_introspection_c.so
+[33.980s] -- Set runtime path of "/media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/libros2_pkg__rosidl_typesupport_introspection_c.so" to ""
+[33.980s] -- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/libros2_pkg__rosidl_typesupport_c.so
+[33.983s] -- Set runtime path of "/media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/libros2_pkg__rosidl_typesupport_c.so" to ""
+[33.984s] -- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/libros2_pkg__rosidl_typesupport_introspection_cpp.so
+[33.989s] -- Set runtime path of "/media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/libros2_pkg__rosidl_typesupport_introspection_cpp.so" to ""
+[33.990s] -- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/libros2_pkg__rosidl_typesupport_cpp.so
+[33.992s] -- Set runtime path of "/media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/libros2_pkg__rosidl_typesupport_cpp.so" to ""
+[34.030s] Listing '/media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg'...
+[34.030s] Compiling '/media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/__init__.py'...
+[34.030s] Listing '/media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/action'...
+[34.030s] Compiling '/media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/action/__init__.py'...
+[34.031s] Compiling '/media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/action/_navigate.py'...
+[34.031s] Listing '/media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/srv'...
+[34.031s] Compiling '/media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/srv/__init__.py'...
+[34.031s] Compiling '/media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/srv/_odd_even_check.py'...
+[34.031s] Compiling '/media/psf/Developer/Robotics/char-01/install/ros2_pkg/local/lib/python3.10/dist-packages/ros2_pkg/srv/_turn_camera.py'...
+[34.034s] -- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/libros2_pkg__rosidl_generator_py.so
+[34.039s] -- Set runtime path of "/media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/libros2_pkg__rosidl_generator_py.so" to ""
+[34.042s] -- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/export_ros2_pkg__rosidl_generator_cExport.cmake
+[34.044s] -- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/export_ros2_pkg__rosidl_generator_cExport-noconfig.cmake
+[34.047s] -- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/export_ros2_pkg__rosidl_typesupport_fastrtps_cExport.cmake
+[34.050s] -- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/export_ros2_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[34.052s] -- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/export_ros2_pkg__rosidl_generator_cppExport.cmake
+[34.055s] -- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/export_ros2_pkg__rosidl_typesupport_fastrtps_cppExport.cmake
+[34.058s] -- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/export_ros2_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[34.060s] -- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/ros2_pkg__rosidl_typesupport_introspection_cExport.cmake
+[34.061s] -- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/ros2_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[34.063s] -- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/ros2_pkg__rosidl_typesupport_cExport.cmake
+[34.065s] -- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/ros2_pkg__rosidl_typesupport_cExport-noconfig.cmake
+[34.066s] -- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/ros2_pkg__rosidl_typesupport_introspection_cppExport.cmake
+[34.068s] -- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/ros2_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[34.069s] -- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/ros2_pkg__rosidl_typesupport_cppExport.cmake
+[34.071s] -- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/ros2_pkg__rosidl_typesupport_cppExport-noconfig.cmake
+[34.073s] -- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/export_ros2_pkg__rosidl_generator_pyExport.cmake
+[34.075s] -- Installing: /media/psf/Developer/Robotics/char-01/install/ros2_pkg/share/ros2_pkg/cmake/export_ros2_pkg__rosidl_generator_pyExport-noconfig.cmake
+[34.089s] Invoked command in '/media/psf/Developer/Robotics/char-01/build/ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /media/psf/Developer/Robotics/char-01/build/ros2_pkg

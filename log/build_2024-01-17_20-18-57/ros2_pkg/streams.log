@@ -1,0 +1,43 @@
+[0.064s] Invoking command in '/media/psf/Developer/Robotics/char-01/build/ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /media/psf/Developer/Robotics/char-01/build/ros2_pkg -- -j2 -l2
+[0.259s] [  1%] Built target ros2_pkg__cpp
+[0.276s] [  8%] Built target ros2_pkg__rosidl_generator_c
+[0.358s] [  8%] Built target ament_cmake_python_symlink_ros2_pkg
+[0.411s] [ 11%] Built target publisher
+[0.448s] [ 14%] Built target subscriber
+[0.466s] [ 16%] Built target rpm_pub
+[0.497s] [ 19%] Built target speed_calc
+[0.525s] [ 26%] Built target ros2_pkg__rosidl_typesupport_cpp
+[0.560s] [ 33%] Built target ros2_pkg__rosidl_typesupport_fastrtps_c
+[0.592s] [ 40%] Built target ros2_pkg__rosidl_typesupport_fastrtps_cpp
+[0.616s] [ 47%] Built target ros2_pkg__rosidl_typesupport_introspection_c
+[0.647s] [ 54%] Built target ros2_pkg__rosidl_typesupport_c
+[0.681s] [ 61%] Built target ros2_pkg__rosidl_typesupport_introspection_cpp
+[0.735s] [ 64%] Built target service_server
+[0.787s] [ 67%] Built target service_client
+[0.837s] running egg_info
+[0.838s] writing ros2_pkg.egg-info/PKG-INFO
+[0.839s] writing dependency_links to ros2_pkg.egg-info/dependency_links.txt
+[0.840s] writing top-level names to ros2_pkg.egg-info/top_level.txt
+[0.842s] [ 70%] Built target turn_camera_service
+[0.846s] reading manifest file 'ros2_pkg.egg-info/SOURCES.txt'
+[0.848s] writing manifest file 'ros2_pkg.egg-info/SOURCES.txt'
+[0.877s] [ 70%] Built target ament_cmake_python_build_ros2_pkg_egg
+[0.905s] [ 73%] Built target turn_camera_client
+[0.952s] [ 76%] Built target action_server
+[1.011s] [ 78%] Built target action_client
+[1.039s] [35m[1mConsolidate compiler generated dependencies of target lidar_node[0m
+[1.083s] [ 80%] [32mBuilding CXX object CMakeFiles/control.dir/src/control.cpp.o[0m
+[1.158s] [ 83%] Built target lidar_node
+[1.216s] [ 83%] Built target ros2_pkg
+[1.273s] [ 84%] Built target ros2_pkg__py
+[1.295s] [35m[1mConsolidate compiler generated dependencies of target ros2_pkg__rosidl_generator_py[0m
+[1.336s] [01m[K/media/psf/Developer/Robotics/char-01/ros2_pkg/src/control.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/String.h: No such file or directory
+[1.336s]     6 | #include [01;31m[K<std_msgs/String.h>[m[K
+[1.336s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.336s] compilation terminated.
+[1.339s] gmake[2]: *** [CMakeFiles/control.dir/build.make:76: CMakeFiles/control.dir/src/control.cpp.o] Error 1
+[1.339s] gmake[1]: *** [CMakeFiles/Makefile2:908: CMakeFiles/control.dir/all] Error 2
+[1.339s] gmake[1]: *** Waiting for unfinished jobs....
+[1.355s] [ 90%] Built target ros2_pkg__rosidl_generator_py
+[1.358s] gmake: *** [Makefile:146: all] Error 2
+[1.358s] Invoked command in '/media/psf/Developer/Robotics/char-01/build/ros2_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /media/psf/Developer/Robotics/char-01/build/ros2_pkg -- -j2 -l2

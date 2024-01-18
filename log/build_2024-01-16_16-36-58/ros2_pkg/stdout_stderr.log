@@ -1,0 +1,41 @@
+[  1%] Built target ros2_pkg__cpp
+[  8%] Built target ros2_pkg__rosidl_generator_c
+[  8%] Built target ament_cmake_python_symlink_ros2_pkg
+[ 11%] Built target publisher
+[ 14%] Built target subscriber
+[ 17%] Built target rpm_pub
+[35m[1mConsolidate compiler generated dependencies of target lidar_node[0m
+[ 20%] Built target speed_calc
+[ 27%] Built target ros2_pkg__rosidl_typesupport_cpp
+[ 28%] [32mBuilding CXX object CMakeFiles/lidar_node.dir/sensors/lidar_node.cc.o[0m
+[ 36%] Built target ros2_pkg__rosidl_typesupport_fastrtps_c
+[ 43%] Built target ros2_pkg__rosidl_typesupport_fastrtps_cpp
+[ 50%] Built target ros2_pkg__rosidl_typesupport_introspection_c
+[ 57%] Built target ros2_pkg__rosidl_typesupport_c
+[ 65%] Built target ros2_pkg__rosidl_typesupport_introspection_cpp
+running egg_info
+writing ros2_pkg.egg-info/PKG-INFO
+writing dependency_links to ros2_pkg.egg-info/dependency_links.txt
+writing top-level names to ros2_pkg.egg-info/top_level.txt
+reading manifest file 'ros2_pkg.egg-info/SOURCES.txt'
+writing manifest file 'ros2_pkg.egg-info/SOURCES.txt'
+[ 65%] Built target ament_cmake_python_build_ros2_pkg_egg
+[ 68%] Built target service_server
+[ 71%] Built target service_client
+[ 73%] Built target turn_camera_service
+[ 76%] Built target turn_camera_client
+[ 79%] Built target action_server
+[ 82%] Built target action_client
+[ 82%] Built target ros2_pkg
+[ 84%] Built target ros2_pkg__py
+[ 89%] Built target ros2_pkg__rosidl_generator_py
+[ 92%] Built target ros2_pkg__rosidl_typesupport_fastrtps_c__pyext
+[ 95%] Built target ros2_pkg__rosidl_typesupport_introspection_c__pyext
+[ 98%] Built target ros2_pkg__rosidl_typesupport_c__pyext
+[01m[K/media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/lidar_node.cc:[m[K In member function ‘[01m[Kvoid LidarNode::callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/lidar_node.cc:46:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kfile[m[K’ was not declared in this scope
+   46 |     [01;31m[Kfile[m[K.open(file_path, std::ios_base::app);
+      |     [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/lidar_node.dir/build.make:76: CMakeFiles/lidar_node.dir/sensors/lidar_node.cc.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:878: CMakeFiles/lidar_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

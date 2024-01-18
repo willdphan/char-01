@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros2_pkg/srv/OddEvenCheck.srv
+// generated code does not contain a copyright notice
+
+
+module ros2_pkg {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct OddEvenCheck_Request {
+      @verbatim (language="comment", text=
+        "Number to check if Odd or Even")
+      int64 number;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct OddEvenCheck_Response {
+      @verbatim (language="comment", text=
+        "Either \"Odd\" or \"Even\"")
+      string decision;
+    };
+  };
+};

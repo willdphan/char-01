@@ -1,0 +1,11 @@
+[0.047s] Invoking command in '/media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/build/avoid_wall': /usr/bin/cmake /media/psf/Developer/Robotics/char-01/ros2_pkg/sensors -DCMAKE_INSTALL_PREFIX=/media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/install/avoid_wall
+[0.362s] -- Found Protobuf: /usr/lib/aarch64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.649s] -- Configuring done
+[0.676s] -- Generating done
+[0.683s] -- Build files have been written to: /media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/build/avoid_wall
+[0.686s] Invoked command in '/media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/build/avoid_wall' returned '0': /usr/bin/cmake /media/psf/Developer/Robotics/char-01/ros2_pkg/sensors -DCMAKE_INSTALL_PREFIX=/media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/install/avoid_wall
+[0.689s] Invoking command in '/media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/build/avoid_wall': /usr/bin/cmake --build /media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/build/avoid_wall -- -j2 -l2
+[0.780s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_node.dir/lidar_node.cc.o[0m
+[4.235s] [100%] [32m[1mLinking CXX executable lidar_node[0m
+[4.423s] [100%] Built target lidar_node
+[4.443s] Invoked command in '/media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/build/avoid_wall' returned '0': /usr/bin/cmake --build /media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/build/avoid_wall -- -j2 -l2

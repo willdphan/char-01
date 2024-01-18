@@ -1,0 +1,32 @@
+[0.050s] Invoking command in '/media/psf/Developer/Robotics/char-01/build/ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /media/psf/Developer/Robotics/char-01/build/ros2_pkg -- -j2 -l2
+[0.264s] [  1%] Built target ros2_pkg__cpp
+[0.274s] [  8%] Built target ros2_pkg__rosidl_generator_c
+[0.335s] [ 11%] Built target ament_cmake_python_symlink_ros2_pkg
+[0.338s] [ 11%] Built target publisher
+[0.392s] [ 14%] Built target subscriber
+[0.408s] [ 17%] Built target rpm_pub
+[0.440s] [35m[1mConsolidate compiler generated dependencies of target lidar_node[0m
+[0.441s] [ 20%] Built target speed_calc
+[0.533s] [ 27%] Built target ros2_pkg__rosidl_typesupport_cpp
+[0.577s] [ 28%] [32mBuilding CXX object CMakeFiles/lidar_node.dir/sensors/lidar_node.cc.o[0m
+[0.611s] [ 36%] Built target ros2_pkg__rosidl_typesupport_fastrtps_c
+[0.676s] [ 43%] Built target ros2_pkg__rosidl_typesupport_fastrtps_cpp
+[0.758s] [ 50%] Built target ros2_pkg__rosidl_typesupport_introspection_c
+[0.819s] [ 57%] Built target ros2_pkg__rosidl_typesupport_c
+[0.931s] [ 65%] Built target ros2_pkg__rosidl_typesupport_introspection_cpp
+[1.015s] [01m[K/media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/lidar_node.cc:5:10:[m[K [01;31m[Kfatal error: [m[Kros/package.h: No such file or directory
+[1.016s]     5 | #include [01;31m[K<ros/package.h>[m[K
+[1.016s]       |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.016s] compilation terminated.
+[1.020s] gmake[2]: *** [CMakeFiles/lidar_node.dir/build.make:76: CMakeFiles/lidar_node.dir/sensors/lidar_node.cc.o] Error 1
+[1.023s] gmake[1]: *** [CMakeFiles/Makefile2:878: CMakeFiles/lidar_node.dir/all] Error 2
+[1.024s] gmake[1]: *** Waiting for unfinished jobs....
+[1.145s] running egg_info
+[1.146s] writing ros2_pkg.egg-info/PKG-INFO
+[1.146s] writing dependency_links to ros2_pkg.egg-info/dependency_links.txt
+[1.147s] writing top-level names to ros2_pkg.egg-info/top_level.txt
+[1.151s] reading manifest file 'ros2_pkg.egg-info/SOURCES.txt'
+[1.152s] writing manifest file 'ros2_pkg.egg-info/SOURCES.txt'
+[1.179s] [ 65%] Built target ament_cmake_python_build_ros2_pkg_egg
+[1.182s] gmake: *** [Makefile:146: all] Error 2
+[1.182s] Invoked command in '/media/psf/Developer/Robotics/char-01/build/ros2_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /media/psf/Developer/Robotics/char-01/build/ros2_pkg -- -j2 -l2

@@ -1,8 +1,0 @@
-{
-  "package_name": "ros2_pkg",
-  "non_idl_tuples": [
-    "/media/psf/Developer/Robotics/char-01/char_01/ros2_pkg:srv/OddEvenCheck.srv",
-    "/media/psf/Developer/Robotics/char-01/char_01/ros2_pkg:srv/TurnCamera.srv",
-    "/media/psf/Developer/Robotics/char-01/char_01/ros2_pkg:action/Navigate.action"
-  ]
-}

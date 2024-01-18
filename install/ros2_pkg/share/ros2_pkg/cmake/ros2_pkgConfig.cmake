@@ -1,0 +1,1 @@
+/media/psf/Developer/Robotics/char-01/build/ros2_pkg/ament_cmake_core/ros2_pkgConfig.cmake

@@ -1,0 +1,25 @@
+[0.048s] Invoking command in '/media/psf/Developer/Robotics/char-01/ros2_pkg/build/ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /media/psf/Developer/Robotics/char-01/ros2_pkg/build/ros2_pkg -- -j2 -l2
+[0.143s] [  1%] Built target ros2_pkg__cpp
+[0.149s] [  8%] Built target ros2_pkg__rosidl_generator_c
+[0.247s] [ 10%] Built target ament_cmake_python_copy_ros2_pkg
+[0.248s] [ 11%] Built target publisher
+[0.316s] [ 14%] Built target subscriber
+[0.345s] [ 17%] Built target rpm_pub
+[0.378s] [ 20%] Built target speed_calc
+[0.422s] [ 24%] [32mBuilding CXX object CMakeFiles/lidar_node.dir/sensors/lidar_node.cc.o[0m
+[0.423s] [ 28%] Built target ros2_pkg__rosidl_typesupport_cpp
+[0.444s] [01m[K/media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/lidar_node.cc:1:10:[m[K [01;31m[Kfatal error: [m[Kignition/msgs/twist.pb.h: No such file or directory
+[0.444s]     1 | #include [01;31m[K<ignition/msgs/twist.pb.h>[m[K
+[0.444s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.444s] compilation terminated.
+[0.445s] gmake[2]: *** [CMakeFiles/lidar_node.dir/build.make:76: CMakeFiles/lidar_node.dir/sensors/lidar_node.cc.o] Error 1
+[0.448s] gmake[1]: *** [CMakeFiles/Makefile2:878: CMakeFiles/lidar_node.dir/all] Error 2
+[0.449s] gmake[1]: *** Waiting for unfinished jobs....
+[0.458s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[0.912s] [ 33%] [32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_pkg/srv/detail/turn_camera__type_support_c.cpp.o[0m
+[0.913s] [ 33%] [32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_pkg/srv/detail/odd_even_check__type_support_c.cpp.o[0m
+[1.241s] [ 34%] [32mBuilding CXX object CMakeFiles/ros2_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_pkg/action/detail/navigate__type_support_c.cpp.o[0m
+[1.505s] [ 36%] [32m[1mLinking CXX shared library libros2_pkg__rosidl_typesupport_fastrtps_c.so[0m
+[1.582s] [ 36%] Built target ros2_pkg__rosidl_typesupport_fastrtps_c
+[1.583s] gmake: *** [Makefile:146: all] Error 2
+[1.585s] Invoked command in '/media/psf/Developer/Robotics/char-01/ros2_pkg/build/ros2_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /media/psf/Developer/Robotics/char-01/ros2_pkg/build/ros2_pkg -- -j2 -l2

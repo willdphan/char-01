@@ -1,6 +1,9 @@
-// subscribes to the topic where the predictions are published, and uses these predictions to control your robot in the Gazebo simulation
+""" Converts the prediction to a Twist message: The callback function takes a std_msgs::msg::String message (the prediction), converts the data to a double, and uses this to create a geometry_msgs::msg::Twist message. The linear.x field of the Twist message is set to the prediction, and the angular.z field is set to 0.0.
 
-// node will publish geometry_msgs/Twist messages to the /cmd_vel topic based on the predictions
+Publishes the Twist message to the /cmd_vel topic: The callback function publishes the Twist message to the /cmd_vel topic. This message can be used to control the movement of a robot. 
+
+ControlNode is responsible for converting predictions (in the form of std_msgs::msg::String messages on the /prediction topic) into movement commands (in the form of geometry_msgs::msg::Twist messages on the /cmd_vel topic). However, it doesn't actually move the robot itself - that would be the responsibility of another node that subscribes to the /cmd_vel topic.
+"""
 
 #include <rclcpp/rclcpp.hpp>
 #include <std_msgs/msg/string.hpp>
@@ -21,23 +24,18 @@ public:
 
 private:
     void callback(const std_msgs::msg::String::SharedPtr msg)
-    {
-        geometry_msgs::msg::Twist twist;
+{
+    geometry_msgs::msg::Twist twist;
 
-        std::vector<double> prediction;
-        std::istringstream iss(msg->data);
-        double number;
-        while (iss >> number) {
-            prediction.push_back(number);
-        }
+    // Convert the prediction from string to double
+    double prediction = std::stod(msg->data);
 
-        if (!prediction.empty()) {
-            twist.linear.x = prediction[0];
-        }
-        twist.angular.z = 0.0;
+    // Use the prediction to set the linear.x field of the twist message
+    twist.linear.x = prediction;
+    twist.angular.z = 0.0;
 
-        publisher_->publish(twist);
-    }
+    publisher_->publish(twist);
+}
 
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_;
     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;

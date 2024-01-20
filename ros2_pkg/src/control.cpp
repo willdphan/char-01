@@ -1,9 +1,9 @@
-""" Converts the prediction to a Twist message: The callback function takes a std_msgs::msg::String message (the prediction), converts the data to a double, and uses this to create a geometry_msgs::msg::Twist message. The linear.x field of the Twist message is set to the prediction, and the angular.z field is set to 0.0.
+// Converts the prediction to a Twist message: The callback function takes a std_msgs::msg::String message (the prediction), converts the data to a double, and uses this to create a geometry_msgs::msg::Twist message. The linear.x field of the Twist message is set to the prediction, and the angular.z field is set to 0.0.
 
-Publishes the Twist message to the /cmd_vel topic: The callback function publishes the Twist message to the /cmd_vel topic. This message can be used to control the movement of a robot. 
+// Publishes the Twist message to the /cmd_vel topic: The callback function publishes the Twist message to the /cmd_vel topic. This message can be used to control the movement of a robot. 
 
-ControlNode is responsible for converting predictions (in the form of std_msgs::msg::String messages on the /prediction topic) into movement commands (in the form of geometry_msgs::msg::Twist messages on the /cmd_vel topic). However, it doesn't actually move the robot itself - that would be the responsibility of another node that subscribes to the /cmd_vel topic.
-"""
+// ControlNode is responsible for converting predictions (in the form of std_msgs::msg::String messages on the /prediction topic) into movement commands (in the form of geometry_msgs::msg::Twist messages on the /cmd_vel topic). However, it doesn't actually move the robot itself - that would be the responsibility of another node that subscribes to the /cmd_vel topic.
+
 
 #include <rclcpp/rclcpp.hpp>
 #include <std_msgs/msg/string.hpp>

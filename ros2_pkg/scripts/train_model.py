@@ -9,8 +9,17 @@ from sklearn.metrics import accuracy_score, classification_report
 from micromlgen import port
 import joblib
 
-
 data = pd.read_csv('/media/psf/Developer/Robotics/char-01/ros2_pkg/data/all.txt', header=None)
+
+# PREPROCESSING
+
+# F - forward
+# I - forward right
+# R - right
+# G - forward left
+# L - left
+
+# get rid of rows labeled L, H, R, J
 data.rename(columns={data.columns[-1]: 'Label'}, inplace=True)
 data = data[(data['Label'] != 'L') & (data['Label'] != 'R') &
             (data['Label'] != 'H') & (data['Label'] != 'J')]

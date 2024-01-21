@@ -40,7 +40,7 @@ private:
       data.linear.x = 0.0;
       data.angular.z = 0.5;
     }
-    std::ofstream file;  // Define 'file' here
+    std::ofstream file;  
     std::string package_path = ament_index_cpp::get_package_share_directory("ros2_pkg");
     std::string file_path = "/media/psf/Developer/Robotics/char-01/ros2_pkg/data";
     file.open(file_path, std::ios_base::app);

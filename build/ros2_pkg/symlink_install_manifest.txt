@@ -17,8 +17,8 @@
 /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail/navigate__rosidl_typesupport_fastrtps_c.h
 /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
 /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/odd_even_check__rosidl_typesupport_fastrtps_c.h
-/media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/srv/detail/turn_camera__rosidl_typesupport_fastrtps_c.h
 /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail/navigate__builder.hpp
+upport_fastrtps_c.h
 /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail/navigate__struct.hpp
 /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/detail/navigate__traits.hpp
 /media/psf/Developer/Robotics/char-01/install/ros2_pkg/include/ros2_pkg/ros2_pkg/action/navigate.hpp
@@ -80,7 +80,6 @@
 /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/ros2_pkg/subscriber
 /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/ros2_pkg/rpm_pub
 /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/ros2_pkg/speed_calc
-/media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/ros2_pkg/service_server
 /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/ros2_pkg/service_client
 /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/ros2_pkg/turn_camera_service
 /media/psf/Developer/Robotics/char-01/install/ros2_pkg/lib/ros2_pkg/turn_camera_client

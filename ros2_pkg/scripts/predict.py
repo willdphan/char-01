@@ -1,5 +1,7 @@
 #!/usr/bin/env python3.10
 
+# makes predictions based on lidar data and publishes them to the prediction topic
+
 import numpy as np
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier

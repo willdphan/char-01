@@ -37,8 +37,13 @@ def generate_launch_description():
             output='screen'
         ),
         ExecuteProcess(
-            cmd=['ros2', 'run', 'ros_ign_bridge', 'parameter_bridge',
+            cmd=['ros2', 'run', 'ros_gz_bridge', 'parameter_bridge',
                  '/lidar@sensor_msgs/msg/LaserScan@ignition.msgs.LaserScan'],
+            output='screen'
+        ),
+        ExecuteProcess(
+            cmd=['ros2', 'run', 'ros_gz_bridge', 'parameter_bridge',
+                 '/cmd_vel@geometry_msgs/msg/Twist@ignition.msgs.Twist'],
             output='screen'
         )
     ])

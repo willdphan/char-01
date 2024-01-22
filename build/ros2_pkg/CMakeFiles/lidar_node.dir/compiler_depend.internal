@@ -691,12 +691,6 @@ CMakeFiles/lidar_node.dir/sensors/lidar_node.cc.o
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__builder.hpp
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__traits.hpp
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp
  /usr/include/c++/11/fstream
  /usr/include/aarch64-linux-gnu/c++/11/bits/basic_file.h
  /usr/include/aarch64-linux-gnu/c++/11/bits/c++io.h

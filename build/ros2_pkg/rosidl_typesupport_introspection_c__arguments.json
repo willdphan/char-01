@@ -1,6 +1,5 @@
 {
-  "package_name": "ros2_pkg",
-  "output_dir": "/media/psf/Developer/Robotics/char-01/build/ros2_pkg/rosidl_typesupport_introspection_c/ros2_pkg",
+  "package_name": "ros2_pkg",  "output_dir": "/media/psf/Developer/Robotics/char-01/build/ros2_pkg/rosidl_typesupport_introspection_c/ros2_pkg",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource",
   "idl_tuples": [
     "/media/psf/Developer/Robotics/char-01/build/ros2_pkg/rosidl_adapter/ros2_pkg:srv/OddEvenCheck.idl",

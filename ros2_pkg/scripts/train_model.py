@@ -9,7 +9,8 @@ from sklearn.metrics import accuracy_score, classification_report
 from micromlgen import port
 import joblib
 
-data = pd.read_csv('/media/psf/Developer/Robotics/char-01/ros2_pkg/data/all.txt', header=None)
+data = pd.read_csv(
+    '/media/psf/Developer/Robotics/char-01/ros2_pkg/data/all.txt', header=None)
 
 # PREPROCESSING
 
@@ -57,10 +58,13 @@ print('Classification Report:\n', report)
 # arduino_code.write(port(clf))
 
 # Save the trained model
-joblib.dump(clf, '/media/psf/Developer/Robotics/char-01/ros2_pkg/data/rf_model/random_forest_model.pkl')
+joblib.dump(
+    clf, '/media/psf/Developer/Robotics/char-01/ros2_pkg/data/rf_model/random_forest_model.pkl')
 
 # Save the feature selector
-joblib.dump(k_best, '/media/psf/Developer/Robotics/char-01/ros2_pkg/data/k_best/k_best.pkl')
+joblib.dump(
+    k_best, '/media/psf/Developer/Robotics/char-01/ros2_pkg/data/k_best/k_best.pkl')
 
 # Save the label encoder
-joblib.dump(label_encoder, '/media/psf/Developer/Robotics/char-01/ros2_pkg/data/label_encoder/label_encoder.pkl')
+joblib.dump(label_encoder,
+            '/media/psf/Developer/Robotics/char-01/ros2_pkg/data/label_encoder/label_encoder.pkl')

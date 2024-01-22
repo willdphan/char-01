@@ -122,3 +122,7 @@ __pycache__/
 *.xcf.z8
 *.xcf.z9
 *.xcf.z10
+
+# gazebo
+
+gazebo.key

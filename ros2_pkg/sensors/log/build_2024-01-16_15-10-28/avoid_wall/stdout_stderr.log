@@ -1,7 +1,0 @@
--- Found Protobuf: /usr/lib/aarch64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
--- Configuring done
--- Generating done
--- Build files have been written to: /media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/build/avoid_wall
-[ 50%] [32mBuilding CXX object CMakeFiles/lidar_node.dir/lidar_node.cc.o[0m
-[100%] [32m[1mLinking CXX executable lidar_node[0m
-[100%] Built target lidar_node

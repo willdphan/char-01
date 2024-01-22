@@ -1,8 +1,0 @@
-[01m[K/media/psf/Developer/Robotics/char-01/ros2_pkg/src/control.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/String.h: No such file or directory
-    6 | #include [01;31m[K<std_msgs/String.h>[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/control.dir/build.make:76: CMakeFiles/control.dir/src/control.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:908: CMakeFiles/control.dir/all] Error 2
-gmake[1]: *** Waiting for unfinished jobs....
-gmake: *** [Makefile:146: all] Error 2

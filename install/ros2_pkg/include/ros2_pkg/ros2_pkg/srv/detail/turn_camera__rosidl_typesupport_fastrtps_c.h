@@ -1,1 +1,0 @@
-/media/psf/Developer/Robotics/char-01/build/ros2_pkg/rosidl_typesupport_fastrtps_c/ros2_pkg/srv/detail/turn_camera__rosidl_typesupport_fastrtps_c.h

@@ -1,2 +1,0 @@
-Invoking command in '/media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/build/avoid_wall': /usr/bin/cmake --build /media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/build/avoid_wall -- -j2 -l2
-Invoked command in '/media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/build/avoid_wall' returned '2': /usr/bin/cmake --build /media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/build/avoid_wall -- -j2 -l2

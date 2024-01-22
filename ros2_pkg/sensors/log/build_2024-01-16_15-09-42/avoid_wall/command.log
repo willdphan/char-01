@@ -1,2 +1,0 @@
-Invoking command in '/media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/build/avoid_wall': /usr/bin/cmake /media/psf/Developer/Robotics/char-01/ros2_pkg/sensors -DCMAKE_INSTALL_PREFIX=/media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/install/avoid_wall
-Invoked command in '/media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/build/avoid_wall' returned '1': /usr/bin/cmake /media/psf/Developer/Robotics/char-01/ros2_pkg/sensors -DCMAKE_INSTALL_PREFIX=/media/psf/Developer/Robotics/char-01/ros2_pkg/sensors/install/avoid_wall

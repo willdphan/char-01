@@ -1,1 +1,0 @@
-/media/psf/Developer/Robotics/char-01/ros2_pkg/launch/rpm_node.launch.py

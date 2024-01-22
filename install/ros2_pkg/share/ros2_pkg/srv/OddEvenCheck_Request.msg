@@ -1,1 +1,0 @@
-/media/psf/Developer/Robotics/char-01/build/ros2_pkg/rosidl_cmake/srv/OddEvenCheck_Request.msg

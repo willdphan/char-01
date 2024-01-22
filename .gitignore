@@ -124,5 +124,5 @@ __pycache__/
 *.xcf.z10
 
 # gazebo
-
 gazebo.key
+env/

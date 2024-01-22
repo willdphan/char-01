@@ -12,14 +12,6 @@ def generate_launch_description():
         ),
         Node(
             package="ros2_pkg",
-            executable="speed_calc",
-            name="speed_calc_node",
-            parameters=[
-                {"wheel_radius": 10/100}  # Centimeters to Meters
-            ]
-        ),
-        Node(
-            package="ros2_pkg",
             executable="predict.py",
             name="predict_node",
             output='screen'

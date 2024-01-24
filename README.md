@@ -1,7 +1,5 @@
 # CHAR 01
 
-## Project Overview
-
 CHAR-01 project encompasses the development of an autonomous navigation robot, underpinned by a machine learning model that achieves approximately 67% accuracy developed with python and C++.
 
 It leverages the capabilities of ROS2 and Gazebo Ignition for a comprehensive and realistic simulation, allowing for the sophisticated navigation of the autonomously driven robot. This blend of software development, machine learning, and simulation showcases an innovative approach to robotics and autonomous systems.

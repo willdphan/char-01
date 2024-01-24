@@ -8,13 +8,13 @@ It leverages the capabilities of ROS2 and Gazebo Ignition for a comprehensive an
 
 ## Key Files
 
-• `char_01_model.sdf` - Model for CHAR 01 Robot.
-• `char_01_world.sdf` - World Environment for CHAR 01.
-• `lidar_node` - subscribes to LaserScan messages and writes the range readings to a file.
-• `visualize.py` - visualizes LiDAR sensor data.
-• `train_model.py` - ML workflow. Preprocesses and encodes a dataset, selects key features for training a Random Forest Classifier.
-• `predict.py` - ROS2 node in Python for making predictions based on LiDAR data using a trained machine learning model.
-• `control.cpp` - Node that listens for predictions and publishes corresponding Twist messages to control a robot.
+- `char_01_model.sdf` - Model for CHAR 01 Robot.
+- `char_01_world.sdf` - World Environment for CHAR 01.
+- `lidar_node` - subscribes to LaserScan messages and writes the range readings to a file.
+- `visualize.py` - visualizes LiDAR sensor data.
+- `train_model.py` - ML workflow. Preprocesses and encodes a dataset, selects key features for training a Random Forest Classifier.
+- `predict.py` - ROS2 node in Python for making predictions based on LiDAR data using a trained machine learning model.
+- `control.cpp` - Node that listens for predictions and publishes corresponding Twist messages to control a robot.
 
 ## Clone Repo
 

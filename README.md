@@ -49,7 +49,7 @@ You don't have more graphics capabilities so you can use the command below in te
 
     export LIBGL_ALWAYS_SOFTWARE=1
 
-## Can Be Improved
+## What Can Be Improved?
 
 - Experimenting with different models might yield more efficient results.
 - Reinforcement Learning.

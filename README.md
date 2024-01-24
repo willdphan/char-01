@@ -46,6 +46,7 @@ If you get error below:
     libGL error: pci id for fd 39: 1ab8:0010, driver (null) pci id for fd 40: 1ab8:0010, driver (null)
 
 You don't have more graphics capabilities so you can use the command below in terminal to force software rendering as an alternative for now.
+
     export LIBGL_ALWAYS_SOFTWARE=1
 
 ## Can Be Improved

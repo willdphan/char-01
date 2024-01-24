@@ -24,7 +24,7 @@ cd into the correct workspace to insert repo and type in terminal:
 
 ## Start Up
 
-1. Build the packages.
+Build the packages.
 
     colcon build
 
@@ -33,11 +33,11 @@ If you're having trouble, delete previous build and install folders and ensure t
     colcon build --symlink-install
     colcon clean
 
-2. Source the setup.bach file.
+Source the setup.bach file.
 
     source install/setup.bash
 
-3. Run the `char_01.launch.py` file.
+Run the `char_01.launch.py` file.
 
     ros2 launch ros2_pkg char_01.launch.py
 

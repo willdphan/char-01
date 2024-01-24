@@ -34,11 +34,9 @@ If you're having trouble, delete previous build and install folders and ensure t
     colcon clean
 
 2. Source the setup.bach file.
-
     source install/setup.bash
 
 3. Run the `char_01.launch.py` file.
-
     ros2 launch ros2_pkg char_01.launch.py
 
 If you get error below:
@@ -46,8 +44,7 @@ If you get error below:
     libGL error: pci id for fd 39: 1ab8:0010, driver (null)
     pci id for fd 40: 1ab8:0010, driver (null)
 
-You don't have more graphics capabilities so you can use the command below to force software rendering as an alternative for now.
-
+You don't have more graphics capabilities so you can use the command below in terminal to force software rendering as an alternative for now.
     export LIBGL_ALWAYS_SOFTWARE=1
 
 ## Can Be Improved
